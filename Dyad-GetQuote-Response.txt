@@ -1,0 +1,3311 @@
+[
+  {
+    "SignonRs": {
+      "SignonPswd": {
+        "CustId": {
+          "CustLoginId": "SLBGROUP",
+          "SPName": ""
+        },
+        "CustPswd": {
+          "Pswd": null
+        }
+      }
+    },
+    "InsuranceSvcRs": {
+      "RqUID": "4ac5e506-a9b0-40d8-a7be-45a2800f4878",
+      "IRH_QuoteNo": "Your System Quote #",
+      "IRH_Application_Type": "QRB",
+      "IRH_Application_Name": "Your Application Name",
+      "IRH_Request_Type": "RATE",
+      "comIRH_CarrierRequestExt": {
+        "comIRH_CarrierInfoExt": [
+          {
+            "IRH_CarrierName": "USLI",
+            "IRH_ReRateRqUID": "",
+            "IRH_AdmittedStatus": "N",
+            "IRH_TimeTaken": null,
+            "IRH_OfficeCd": "",
+            "IRH_NAICCd": null,
+            "IRH_BusinessPurposeTypecd": "",
+            "CarrierAgencyID": ""
+          }
+        ]
+      },
+      "CommlGeneralLiabilityPolicyQuoteInqRs": null,
+      "CommlPropertyPolicyQuoteInqRs": null,
+      "EPLIPolicyQuoteInqRs": null,
+      "CommlPkgPolicyQuoteInqRs": {
+        "IRH_Rating_StatusCd": "Error",
+        "MsgStatus": [
+          {
+            "MsgStatusCd": "Error",
+            "MsgErrorCd": "",
+            "MsgStatusDesc": "You are not authorized to rate this carrier-coverage combination.",
+            "ChangeStatus": {
+              "ActionCd": null,
+              "ChangeDesc": null
+            }
+          }
+        ],
+        "FormsRequestedCd": "BOTH",
+        "SaveIndicationCd": "Yes",
+        "Producer": [
+          {
+            "GeneralPartyInfo": {
+              "NameInfo": {
+                "CommlName": {
+                  "CommercialName": "Sara Baker"
+                },
+                "PersonName": {
+                  "Surname": "",
+                  "GivenName": "",
+                  "MiddleName": ""
+                },
+                "SupplementaryNameInfo": {
+                  "SupplementaryName": "",
+                  "SupplementaryNameCd": ""
+                },
+                "IRH_ReferenceInsuredID": "",
+                "LegalEntityCd": null
+              },
+              "Communications": {
+                "EmailInfo": {
+                  "CommunicationUseCd": "",
+                  "EmailAddr": "test@gmail.com"
+                },
+                "WebsiteInfo": {
+                  "WebsiteURL": "",
+                  "IRH_Insured_WebsiteURL": null
+                },
+                "PhoneInfo": {
+                  "PhoneNumber": "501-227-9670",
+                  "Fax": "(501) 227-8105"
+                }
+              },
+              "Addr": {
+                "Addr1": "11101 Anderson Dr",
+                "Addr2": "",
+                "City": "Little Rock",
+                "StateProvCd": "AR",
+                "PostalCode": "72212",
+                "Latitude": "",
+                "Longitude": "",
+                "County": "",
+                "TerritoryCd": "",
+                "HouseNumber": null,
+                "StreetNumber": ""
+              },
+              "PhysicalAddr": null,
+              "PersonInfo": {
+                "FirstName": "",
+                "MiddleName": "",
+                "LastName": "",
+                "BirthDt": "0001-01-01T00:00:00Z",
+                "OccupationClassCd": "",
+                "TaxIdentity": [],
+                "CarrierUserName": ""
+              },
+              "OperationsDesc": ""
+            },
+            "ProducerInfo": {
+              "ProducerRoleCd": "LoggedInUser",
+              "ContractNumber": ""
+            }
+          },
+          {
+            "GeneralPartyInfo": {
+              "NameInfo": {
+                "CommlName": {
+                  "CommercialName": "Sara Baker"
+                },
+                "PersonName": {
+                  "Surname": "",
+                  "GivenName": "",
+                  "MiddleName": ""
+                },
+                "SupplementaryNameInfo": {
+                  "SupplementaryName": "",
+                  "SupplementaryNameCd": ""
+                },
+                "IRH_ReferenceInsuredID": "",
+                "LegalEntityCd": null
+              },
+              "Communications": {
+                "EmailInfo": {
+                  "CommunicationUseCd": "",
+                  "EmailAddr": "test@gmail.com"
+                },
+                "WebsiteInfo": {
+                  "WebsiteURL": "",
+                  "IRH_Insured_WebsiteURL": null
+                },
+                "PhoneInfo": {
+                  "PhoneNumber": "501-227-9670",
+                  "Fax": "(501) 227-8105"
+                }
+              },
+              "Addr": {
+                "Addr1": "11101 Anderson Dr",
+                "Addr2": "",
+                "City": "Little Rock",
+                "StateProvCd": "AR",
+                "PostalCode": "72212",
+                "Latitude": "",
+                "Longitude": "",
+                "County": "",
+                "TerritoryCd": "",
+                "HouseNumber": null,
+                "StreetNumber": ""
+              },
+              "PhysicalAddr": null,
+              "PersonInfo": {
+                "FirstName": "",
+                "MiddleName": "",
+                "LastName": "",
+                "BirthDt": "0001-01-01T00:00:00Z",
+                "OccupationClassCd": "",
+                "TaxIdentity": [],
+                "CarrierUserName": ""
+              },
+              "OperationsDesc": ""
+            },
+            "ProducerInfo": {
+              "ProducerRoleCd": "UN",
+              "ContractNumber": ""
+            }
+          }
+        ],
+        "InsuredOrPrincipal": {
+          "GeneralPartyInfo": {
+            "NameInfo": {
+              "CommlName": {
+                "CommercialName": "John Doe"
+              },
+              "PersonName": {
+                "Surname": "Doe",
+                "GivenName": "John",
+                "MiddleName": ""
+              },
+              "SupplementaryNameInfo": {
+                "SupplementaryName": "",
+                "SupplementaryNameCd": ""
+              },
+              "IRH_ReferenceInsuredID": "",
+              "LegalEntityCd": null
+            },
+            "Communications": {
+              "EmailInfo": {
+                "CommunicationUseCd": "",
+                "EmailAddr": ""
+              },
+              "WebsiteInfo": {
+                "WebsiteURL": "",
+                "IRH_Insured_WebsiteURL": null
+              },
+              "PhoneInfo": {
+                "PhoneNumber": "",
+                "Fax": ""
+              }
+            },
+            "Addr": {
+              "Addr1": "18077 River Rd",
+              "Addr2": "",
+              "City": "Noblesville",
+              "StateProvCd": "IN",
+              "PostalCode": "46062",
+              "Latitude": "",
+              "Longitude": "",
+              "County": "Hamilton",
+              "TerritoryCd": "503",
+              "HouseNumber": null,
+              "StreetNumber": ""
+            },
+            "PhysicalAddr": {
+              "Addr1": "18077 River Rd",
+              "Addr2": "",
+              "City": "Noblesville",
+              "StateProvCd": "IN",
+              "PostalCode": "46062",
+              "Latitude": "",
+              "Longitude": "",
+              "County": "Hamilton",
+              "TerritoryCd": "503",
+              "HouseNumber": null,
+              "StreetNumber": ""
+            },
+            "PersonInfo": {
+              "FirstName": "",
+              "MiddleName": "",
+              "LastName": "",
+              "BirthDt": "0001-01-01T00:00:00Z",
+              "OccupationClassCd": "",
+              "TaxIdentity": [],
+              "CarrierUserName": ""
+            },
+            "OperationsDesc": ""
+          },
+          "InsuredOrPrincipalInfo": {
+            "InsuredOrPrincipalRoleCd": "Insured"
+          },
+          "HRInfo": {
+            "HrContactName": "",
+            "HrContactEmail": "",
+            "HrContactTitle": "",
+            "HrContactPhone": ""
+          }
+        },
+        "Policy": {
+          "PolicyNumber": "",
+          "LOBCd": "CPKGE",
+          "NAICCd": "",
+          "LOBSubCd": "",
+          "ContractTerm": {
+            "EffectiveDt": "2025-09-15T00:00:00",
+            "ExpirationDt": "2026-09-15T00:00:00",
+            "OriginalPolicyInceptionDt": "0001-01-01T00:00:00",
+            "TransactionEffectiveDt": "0001-01-01T00:00:00"
+          },
+          "CurrentTermAmt": {
+            "Amt": ""
+          },
+          "Form": [],
+          "NumLosses": null,
+          "NumLossesYrs": null,
+          "IRH_LossFreeYears": null,
+          "IRH_YrsInBus": null,
+          "MiscParty": {
+            "GeneralPartyInfo": {
+              "NameInfo": {
+                "CommlName": {
+                  "CommercialName": ""
+                },
+                "PersonName": {
+                  "Surname": "",
+                  "GivenName": "",
+                  "MiddleName": ""
+                },
+                "SupplementaryNameInfo": {
+                  "SupplementaryName": "",
+                  "SupplementaryNameCd": ""
+                },
+                "IRH_ReferenceInsuredID": "",
+                "LegalEntityCd": null
+              },
+              "Communications": {
+                "EmailInfo": {
+                  "CommunicationUseCd": "",
+                  "EmailAddr": ""
+                },
+                "WebsiteInfo": {
+                  "WebsiteURL": "",
+                  "IRH_Insured_WebsiteURL": null
+                },
+                "PhoneInfo": {
+                  "PhoneNumber": "",
+                  "Fax": ""
+                }
+              },
+              "Addr": {
+                "Addr1": "",
+                "Addr2": "",
+                "City": "",
+                "StateProvCd": "",
+                "PostalCode": "",
+                "Latitude": "",
+                "Longitude": "",
+                "County": "",
+                "TerritoryCd": "",
+                "HouseNumber": null,
+                "StreetNumber": ""
+              },
+              "PhysicalAddr": null,
+              "PersonInfo": {
+                "FirstName": "",
+                "MiddleName": "",
+                "LastName": "",
+                "BirthDt": "",
+                "OccupationClassCd": "",
+                "TaxIdentity": null,
+                "CarrierUserName": ""
+              },
+              "OperationsDesc": ""
+            }
+          },
+          "Coverage": [],
+          "IRH_RatedPremium": 0,
+          "MinPremInd": "No",
+          "MinPremAmt": {
+            "Amt": 0
+          },
+          "LocationUWInfo": [],
+          "PolicySupplement": null,
+          "IRH_RSUI_LocNo": null,
+          "IRH_RSUI_Loc": null,
+          "IRH_RSUI_UWKey": null,
+          "PaymentOption": null,
+          "NumYrsInBusiness": null,
+          "NetChangeAmt": {
+            "Amt": ""
+          },
+          "Subjectivities": [],
+          "MinimumEarnedPct": null,
+          "RenewId": null,
+          "AdditionalInterestList": {
+            "AdditionalInterest": []
+          },
+          "PollicyCarrierSpecified": {
+            "IsPriorFelonyConvictions": "",
+            "IsBankruptcy": ""
+          },
+          "PolicyUWQuestionList": null,
+          "CreditDebitSurcharge": null,
+          "RevisedFullTermAmt": {
+            "Amt": ""
+          },
+          "IsNewVenture": null,
+          "SLANumber": "",
+          "PolicyExtensionInfo": {
+            "IsPolicyExtension": false,
+            "PolicyExtensionPeriodCd": "",
+            "PolicyExtensionPeriodValue": "",
+            "PolicyExtensionEffectiveDate": "0001-01-01T00:00:00"
+          },
+          "ExternalURLList": {
+            "ExternalURL": []
+          },
+          "AnniversaryRatingDt": null,
+          "NumYrsInIndustry": null
+        },
+        "TransactionRequestDt": "2025-09-15T00:00:00",
+        "comIRH_GoverningStateExt": "IN",
+        "FormsRequestCd": "",
+        "CompanysQuoteNumber": "",
+        "Location": [
+          {
+            "Addr": {
+              "Addr1": "18077 River Rd",
+              "Addr2": "",
+              "City": "Noblesville",
+              "StateProvCd": "IN",
+              "PostalCode": "46062",
+              "Latitude": "",
+              "Longitude": "",
+              "County": "Hamilton",
+              "TerritoryCd": "503",
+              "HouseNumber": null,
+              "StreetNumber": "509"
+            },
+            "SubLocation": [
+              {
+                "Addr": {
+                  "Addr1": "18077 River Rd",
+                  "Addr2": "",
+                  "City": "Noblesville",
+                  "StateProvCd": "IN",
+                  "PostalCode": "46062",
+                  "Latitude": "",
+                  "Longitude": "",
+                  "County": "Hamilton",
+                  "TerritoryCd": "503",
+                  "HouseNumber": null,
+                  "StreetNumber": "509"
+                },
+                "id": 1
+              }
+            ],
+            "id": 1,
+            "CrimeScore": "",
+            "WildfireRiskScore": ""
+          }
+        ],
+        "LocationUWInfo": [
+          {
+            "Construction": {
+              "ConstructionCd": "JM",
+              "YearBuilt": "1983",
+              "BldgArea": {
+                "NumUnits": 1700,
+                "UnitMeasurementCd": "",
+                "RangeValue": ""
+              },
+              "NumStories": "1",
+              "RoofingMaterial": {
+                "RoofMaterialCd": ""
+              },
+              "RoofGeometryTypeCd": "",
+              "CladdingTypeCd": "",
+              "ConstructionQualityCd": "",
+              "FrameFoundationConnectionCd": "",
+              "RoofWallAttachmentCd": "",
+              "RoofDeckMaterialCd": "",
+              "RoofEquipmentHurricaneCd": "",
+              "WindOpeningProtectionCd": "",
+              "FoundationCd": null,
+              "ElectricalTypeCd": "",
+              "HeatSourcePrimaryCd": "",
+              "BasementTypeCd": ""
+            },
+            "BldgProtection": {
+              "DistanceToFireStation": "",
+              "DistanceToHydrant": "",
+              "ProtectionDeviceBurglarCd": "",
+              "ProtectionDeviceFireCd": "",
+              "ProtectionClassGradeCd": "7",
+              "ProtectionDeviceSprinklerCd": "NO",
+              "SprinkleredPct": "",
+              "ElectricalProtectionCd": "",
+              "ProtectionDeviceMotionDetectorCd": "",
+              "ProtectionDeviceSmokeCd": "",
+              "DoorLockCd": "",
+              "ProtectionDeviceBurglarLevel": "",
+              "IsStormShutters": "false",
+              "IsSmokeDetectors": "false",
+              "IsAnsulSystem": "false"
+            },
+            "BldgImprovements": {
+              "HeatingImprovementYear": "2017",
+              "comIRH_PlumbingTypeCdExt": "",
+              "PlumbingImprovementYear": "1983",
+              "RoofingImprovementYear": "2013",
+              "WiringImprovementYear": "1983",
+              "comIRH_WiringYearExt": "",
+              "comIRH_HeatingTypeCdExt": "",
+              "comIRH_WiringTypeCdExt": "",
+              "comIRH_RoofingTypeCdExt": ""
+            },
+            "BldgOccupancy": {
+              "OccupancyTypeCd": "",
+              "OccupancyDesc": "",
+              "VacancyInfo": {
+                "VacancyDt": ""
+              },
+              "RentalType": ""
+            },
+            "AlarmAndSecurity": [],
+            "TerritoryCd": "503",
+            "DistanceToOceanOrOtherBodyWater": {
+              "NumUnits": 0,
+              "UnitMeasurementCd": "",
+              "RangeValue": ""
+            },
+            "LocationRef": 1,
+            "SubLocationRef": 1,
+            "RoofType": "",
+            "SquareFootage": "",
+            "CoverageTotalInsuredValue": "",
+            "TotalNoOfLoss": "",
+            "Exclusions": {
+              "IsVandalismExclusion": "false",
+              "IsSprinklerLeakageExclusion": "false",
+              "IsSinkholeExclusion": "false",
+              "IsWaterDamageExclusion": "false",
+              "WaterDamageSublimitAmount": "",
+              "RoofExclusion": "false",
+              "IsTheftExclusion": "",
+              "TheftSublimitAmount": ""
+            }
+          }
+        ],
+        "GeneralLiabilityLineBusiness": {
+          "CurrentTermAmt": {
+            "Amt": ""
+          },
+          "IRH_RatedPremium": 0,
+          "MinPremInd": "No",
+          "MinPremAmt": {
+            "Amt": 0
+          },
+          "LiabilityInfo": {
+            "Coverage": [
+              {
+                "CoverageCd": "GENAG",
+                "CoverageDesc": "General Aggregate Limit",
+                "Limit": [
+                  {
+                    "FormatCurrencyAmt": {
+                      "Amt": "2000000"
+                    },
+                    "LimitAppliesToCd": "Aggregate",
+                    "ValuationCd": null
+                  }
+                ],
+                "Deductible": [],
+                "CommlCoverageSupplement": {
+                  "CoverageSubCd": null,
+                  "CoinsurancePct": null,
+                  "ClaimMadeInfo": {
+                    "UnlimitedPriorActsCoverageInd": false,
+                    "CurrentRetroactiveDt": "0001-01-01T00:00:00",
+                    "RetroactiveCoverageInd": false
+                  }
+                },
+                "CurrentTermAmt": {
+                  "Amt": ""
+                },
+                "Option": [],
+                "CreditOrSurcharge": {
+                  "CreditSurchargeCd": null,
+                  "NumericValue": {
+                    "FormatModFactor": 0
+                  }
+                },
+                "Rate": "",
+                "MinPremAmt": {
+                  "Amt": 0
+                },
+                "AddlCoverage": null,
+                "CreditOrSurchargeInfo": null,
+                "CoverageType": ""
+              },
+              {
+                "CoverageCd": "EAOCC",
+                "CoverageDesc": "Each Occurrence Limit",
+                "Limit": [
+                  {
+                    "FormatCurrencyAmt": {
+                      "Amt": "1000000"
+                    },
+                    "LimitAppliesToCd": "PerOcc",
+                    "ValuationCd": null
+                  }
+                ],
+                "Deductible": [],
+                "CommlCoverageSupplement": {
+                  "CoverageSubCd": null,
+                  "CoinsurancePct": null,
+                  "ClaimMadeInfo": {
+                    "UnlimitedPriorActsCoverageInd": false,
+                    "CurrentRetroactiveDt": "0001-01-01T00:00:00",
+                    "RetroactiveCoverageInd": false
+                  }
+                },
+                "CurrentTermAmt": {
+                  "Amt": ""
+                },
+                "Option": [],
+                "CreditOrSurcharge": {
+                  "CreditSurchargeCd": null,
+                  "NumericValue": {
+                    "FormatModFactor": 0
+                  }
+                },
+                "Rate": "",
+                "MinPremAmt": {
+                  "Amt": 0
+                },
+                "AddlCoverage": null,
+                "CreditOrSurchargeInfo": null,
+                "CoverageType": ""
+              },
+              {
+                "CoverageCd": "PRDCO",
+                "CoverageDesc": "Products & Completed Operation Aggregate Limit",
+                "Limit": [
+                  {
+                    "FormatCurrencyAmt": {
+                      "Amt": "2000000"
+                    },
+                    "LimitAppliesToCd": "PerOcc",
+                    "ValuationCd": null
+                  }
+                ],
+                "Deductible": [],
+                "CommlCoverageSupplement": {
+                  "CoverageSubCd": null,
+                  "CoinsurancePct": null,
+                  "ClaimMadeInfo": {
+                    "UnlimitedPriorActsCoverageInd": false,
+                    "CurrentRetroactiveDt": "0001-01-01T00:00:00",
+                    "RetroactiveCoverageInd": false
+                  }
+                },
+                "CurrentTermAmt": {
+                  "Amt": ""
+                },
+                "Option": [],
+                "CreditOrSurcharge": {
+                  "CreditSurchargeCd": null,
+                  "NumericValue": {
+                    "FormatModFactor": 0
+                  }
+                },
+                "Rate": "",
+                "MinPremAmt": {
+                  "Amt": 0
+                },
+                "AddlCoverage": null,
+                "CreditOrSurchargeInfo": null,
+                "CoverageType": ""
+              },
+              {
+                "CoverageCd": "PIADV",
+                "CoverageDesc": "Personal & Advertising Injury Limit",
+                "Limit": [
+                  {
+                    "FormatCurrencyAmt": {
+                      "Amt": "1000000"
+                    },
+                    "LimitAppliesToCd": "",
+                    "ValuationCd": null
+                  }
+                ],
+                "Deductible": [],
+                "CommlCoverageSupplement": {
+                  "CoverageSubCd": null,
+                  "CoinsurancePct": null,
+                  "ClaimMadeInfo": {
+                    "UnlimitedPriorActsCoverageInd": false,
+                    "CurrentRetroactiveDt": "0001-01-01T00:00:00",
+                    "RetroactiveCoverageInd": false
+                  }
+                },
+                "CurrentTermAmt": {
+                  "Amt": ""
+                },
+                "Option": [],
+                "CreditOrSurcharge": {
+                  "CreditSurchargeCd": null,
+                  "NumericValue": {
+                    "FormatModFactor": 0
+                  }
+                },
+                "Rate": "",
+                "MinPremAmt": {
+                  "Amt": 0
+                },
+                "AddlCoverage": null,
+                "CreditOrSurchargeInfo": null,
+                "CoverageType": ""
+              },
+              {
+                "CoverageCd": "MEDEX",
+                "CoverageDesc": "Medical Expense Limit",
+                "Limit": [
+                  {
+                    "FormatCurrencyAmt": {
+                      "Amt": "5000"
+                    },
+                    "LimitAppliesToCd": "",
+                    "ValuationCd": null
+                  }
+                ],
+                "Deductible": [],
+                "CommlCoverageSupplement": {
+                  "CoverageSubCd": null,
+                  "CoinsurancePct": null,
+                  "ClaimMadeInfo": {
+                    "UnlimitedPriorActsCoverageInd": false,
+                    "CurrentRetroactiveDt": "0001-01-01T00:00:00",
+                    "RetroactiveCoverageInd": false
+                  }
+                },
+                "CurrentTermAmt": {
+                  "Amt": ""
+                },
+                "Option": [],
+                "CreditOrSurcharge": {
+                  "CreditSurchargeCd": null,
+                  "NumericValue": {
+                    "FormatModFactor": 0
+                  }
+                },
+                "Rate": "",
+                "MinPremAmt": {
+                  "Amt": 0
+                },
+                "AddlCoverage": null,
+                "CreditOrSurchargeInfo": null,
+                "CoverageType": ""
+              },
+              {
+                "CoverageCd": "PROF",
+                "CoverageDesc": "Professional Incidents Limit",
+                "Limit": [
+                  {
+                    "FormatCurrencyAmt": {
+                      "Amt": "Not Covered"
+                    },
+                    "LimitAppliesToCd": "Excl",
+                    "ValuationCd": null
+                  }
+                ],
+                "Deductible": [],
+                "CommlCoverageSupplement": {
+                  "CoverageSubCd": null,
+                  "CoinsurancePct": null,
+                  "ClaimMadeInfo": {
+                    "UnlimitedPriorActsCoverageInd": false,
+                    "CurrentRetroactiveDt": "0001-01-01T00:00:00",
+                    "RetroactiveCoverageInd": false
+                  }
+                },
+                "CurrentTermAmt": {
+                  "Amt": ""
+                },
+                "Option": [],
+                "CreditOrSurcharge": {
+                  "CreditSurchargeCd": null,
+                  "NumericValue": {
+                    "FormatModFactor": 0
+                  }
+                },
+                "Rate": "",
+                "MinPremAmt": {
+                  "Amt": 0
+                },
+                "AddlCoverage": null,
+                "CreditOrSurchargeInfo": null,
+                "CoverageType": ""
+              },
+              {
+                "CoverageCd": "FIRDM",
+                "CoverageDesc": "Damage To Rented Premises Limit",
+                "Limit": [
+                  {
+                    "FormatCurrencyAmt": {
+                      "Amt": "100000"
+                    },
+                    "LimitAppliesToCd": "",
+                    "ValuationCd": null
+                  }
+                ],
+                "Deductible": [],
+                "CommlCoverageSupplement": {
+                  "CoverageSubCd": null,
+                  "CoinsurancePct": null,
+                  "ClaimMadeInfo": {
+                    "UnlimitedPriorActsCoverageInd": false,
+                    "CurrentRetroactiveDt": "0001-01-01T00:00:00",
+                    "RetroactiveCoverageInd": false
+                  }
+                },
+                "CurrentTermAmt": {
+                  "Amt": ""
+                },
+                "Option": [],
+                "CreditOrSurcharge": {
+                  "CreditSurchargeCd": null,
+                  "NumericValue": {
+                    "FormatModFactor": 0
+                  }
+                },
+                "Rate": "",
+                "MinPremAmt": {
+                  "Amt": 0
+                },
+                "AddlCoverage": null,
+                "CreditOrSurchargeInfo": null,
+                "CoverageType": ""
+              }
+            ],
+            "GeneralLiabilityClassification": [
+              {
+                "Coverage": [
+                  {
+                    "CoverageCd": "PREM",
+                    "CoverageDesc": "",
+                    "Limit": [],
+                    "Deductible": [],
+                    "CommlCoverageSupplement": {
+                      "CoverageSubCd": null,
+                      "CoinsurancePct": null,
+                      "ClaimMadeInfo": {
+                        "UnlimitedPriorActsCoverageInd": false,
+                        "CurrentRetroactiveDt": "0001-01-01T00:00:00",
+                        "RetroactiveCoverageInd": false
+                      }
+                    },
+                    "CurrentTermAmt": {
+                      "Amt": ""
+                    },
+                    "Option": [],
+                    "CreditOrSurcharge": {
+                      "CreditSurchargeCd": null,
+                      "NumericValue": {
+                        "FormatModFactor": 0
+                      }
+                    },
+                    "Rate": "",
+                    "MinPremAmt": {
+                      "Amt": 0
+                    },
+                    "AddlCoverage": null,
+                    "CreditOrSurchargeInfo": null,
+                    "CoverageType": ""
+                  },
+                  {
+                    "CoverageCd": "PRDCO",
+                    "CoverageDesc": "",
+                    "Limit": [],
+                    "Deductible": [],
+                    "CommlCoverageSupplement": {
+                      "CoverageSubCd": null,
+                      "CoinsurancePct": null,
+                      "ClaimMadeInfo": {
+                        "UnlimitedPriorActsCoverageInd": false,
+                        "CurrentRetroactiveDt": "0001-01-01T00:00:00",
+                        "RetroactiveCoverageInd": false
+                      }
+                    },
+                    "CurrentTermAmt": {
+                      "Amt": ""
+                    },
+                    "Option": [],
+                    "CreditOrSurcharge": {
+                      "CreditSurchargeCd": null,
+                      "NumericValue": {
+                        "FormatModFactor": 0
+                      }
+                    },
+                    "Rate": "",
+                    "MinPremAmt": {
+                      "Amt": 0
+                    },
+                    "AddlCoverage": null,
+                    "CreditOrSurchargeInfo": null,
+                    "CoverageType": ""
+                  }
+                ],
+                "ClassCd": "60010",
+                "ClassCdDesc": "Apartment Buildings",
+                "IRH_SubClassCd": "",
+                "IRH_SubClassCdDesc": "",
+                "IRH_DaggerClass": "No",
+                "Exposure": 20,
+                "NumEmployeesPartTime": 0,
+                "NumEmployeesFullTime": 0,
+                "comIRH_IsCalculateStatePayroll": false,
+                "IRH_PayrollType": null,
+                "comIRH_NoOfOwners": 0,
+                "comIRH_PayrollPercentage": 0,
+                "comIRH_EmployeePayroll": 0,
+                "PremiumBasisCd": "Unit",
+                "PremiumBasisDesc": "",
+                "IfAnyRatingBasisInd": "false",
+                "PremiumAmt": {
+                  "Amt": 0
+                },
+                "IRH_FinalRate": 0,
+                "IRH_RatedPremium": 0,
+                "MinPremInd": "No",
+                "MinPremAmt": {
+                  "Amt": 0
+                },
+                "RiskAppetiteCd": null,
+                "CreditOrSurcharge": 1,
+                "LocationRef": "1",
+                "IRH_IsMaxRevenueGoverningClass": false,
+                "VacancyDt": ""
+              },
+              {
+                "Coverage": [
+                  {
+                    "CoverageCd": "PREM",
+                    "CoverageDesc": "",
+                    "Limit": [],
+                    "Deductible": [],
+                    "CommlCoverageSupplement": {
+                      "CoverageSubCd": null,
+                      "CoinsurancePct": null,
+                      "ClaimMadeInfo": {
+                        "UnlimitedPriorActsCoverageInd": false,
+                        "CurrentRetroactiveDt": "0001-01-01T00:00:00",
+                        "RetroactiveCoverageInd": false
+                      }
+                    },
+                    "CurrentTermAmt": {
+                      "Amt": ""
+                    },
+                    "Option": [],
+                    "CreditOrSurcharge": {
+                      "CreditSurchargeCd": null,
+                      "NumericValue": {
+                        "FormatModFactor": 0
+                      }
+                    },
+                    "Rate": "",
+                    "MinPremAmt": {
+                      "Amt": 0
+                    },
+                    "AddlCoverage": null,
+                    "CreditOrSurchargeInfo": null,
+                    "CoverageType": ""
+                  },
+                  {
+                    "CoverageCd": "PRDCO",
+                    "CoverageDesc": "",
+                    "Limit": [],
+                    "Deductible": [],
+                    "CommlCoverageSupplement": {
+                      "CoverageSubCd": null,
+                      "CoinsurancePct": null,
+                      "ClaimMadeInfo": {
+                        "UnlimitedPriorActsCoverageInd": false,
+                        "CurrentRetroactiveDt": "0001-01-01T00:00:00",
+                        "RetroactiveCoverageInd": false
+                      }
+                    },
+                    "CurrentTermAmt": {
+                      "Amt": ""
+                    },
+                    "Option": [],
+                    "CreditOrSurcharge": {
+                      "CreditSurchargeCd": null,
+                      "NumericValue": {
+                        "FormatModFactor": 0
+                      }
+                    },
+                    "Rate": "",
+                    "MinPremAmt": {
+                      "Amt": 0
+                    },
+                    "AddlCoverage": null,
+                    "CreditOrSurchargeInfo": null,
+                    "CoverageType": ""
+                  }
+                ],
+                "ClassCd": "91342",
+                "ClassCdDesc": "Carpentry - Noc",
+                "IRH_SubClassCd": "",
+                "IRH_SubClassCdDesc": "",
+                "IRH_DaggerClass": "No",
+                "Exposure": 50000,
+                "NumEmployeesPartTime": 0,
+                "NumEmployeesFullTime": 0,
+                "comIRH_IsCalculateStatePayroll": false,
+                "IRH_PayrollType": null,
+                "comIRH_NoOfOwners": 0,
+                "comIRH_PayrollPercentage": 0,
+                "comIRH_EmployeePayroll": 0,
+                "PremiumBasisCd": "PAYRL",
+                "PremiumBasisDesc": "",
+                "IfAnyRatingBasisInd": "false",
+                "PremiumAmt": {
+                  "Amt": 0
+                },
+                "IRH_FinalRate": 0,
+                "IRH_RatedPremium": 0,
+                "MinPremInd": "No",
+                "MinPremAmt": {
+                  "Amt": 0
+                },
+                "RiskAppetiteCd": null,
+                "CreditOrSurcharge": 1,
+                "LocationRef": "1",
+                "IRH_IsMaxRevenueGoverningClass": false,
+                "VacancyDt": ""
+              }
+            ],
+            "GLCarrierSpecified": {
+              "IsOwnSecurityProvided": "false",
+              "IsSnowShovelingContractedOut": "false",
+              "IsAssaultAndBatteryExclusion": "true",
+              "IsTotalFirearmExclusion": "true"
+            }
+          },
+          "Deductible": [
+            {
+              "FormatInteger": 500,
+              "FormatPct": 0,
+              "DeductibleTypeCd": "CL",
+              "DeductibleAppliesToCd": "BIPD"
+            }
+          ],
+          "OptionalCoverageList": {
+            "CoverageDetail": []
+          },
+          "AdditionalInsuredList": {
+            "CoverageDetail": []
+          },
+          "CreditOrSurcharge": 1,
+          "PercentageOfWorkSubbed": null,
+          "GrossSalesOfWorkSubbed": null,
+          "NoOfExecutiveOfficers": null,
+          "AdditionalCoveragesDescription": null
+        },
+        "CommlPropertyLineBusiness": {
+          "CurrentTermAmt": {
+            "Amt": ""
+          },
+          "IRH_RatedPremium": 0,
+          "MinPremInd": "No",
+          "MinPremAmt": {
+            "Amt": 0
+          },
+          "PropertyInfo": {
+            "CreditOrSurcharge": 0,
+            "CommlPropertyInfo": [
+              {
+                "ClassCd": "0311",
+                "ClassCdDesc": "Apartments without Mercantile Occupancies - Up to 10 Units",
+                "comIRH_CSPCdExt": null,
+                "Coverage": [
+                  {
+                    "CoverageCd": "BLDG",
+                    "CoverageDesc": "Building",
+                    "Limit": [
+                      {
+                        "FormatCurrencyAmt": {
+                          "Amt": "485000"
+                        },
+                        "LimitAppliesToCd": "",
+                        "ValuationCd": "ACV"
+                      }
+                    ],
+                    "Deductible": [
+                      {
+                        "FormatInteger": 2500,
+                        "FormatPct": 0,
+                        "DeductibleTypeCd": "",
+                        "DeductibleAppliesToCd": "AllPeril"
+                      },
+                      {
+                        "FormatInteger": 0,
+                        "FormatPct": 2,
+                        "DeductibleTypeCd": "",
+                        "DeductibleAppliesToCd": "Wind"
+                      }
+                    ],
+                    "CommlCoverageSupplement": {
+                      "CoverageSubCd": "BASIC",
+                      "CoinsurancePct": "80",
+                      "ClaimMadeInfo": {
+                        "UnlimitedPriorActsCoverageInd": false,
+                        "CurrentRetroactiveDt": "0001-01-01T00:00:00",
+                        "RetroactiveCoverageInd": false
+                      }
+                    },
+                    "CurrentTermAmt": {
+                      "Amt": ""
+                    },
+                    "Option": [
+                      {
+                        "OptionTypeCd": "Wind",
+                        "OptionValue": "Incl",
+                        "OptionValueDesc": "",
+                        "LocationNo": "",
+                        "BuildingNo": "",
+                        "OptionGroup": "",
+                        "OptionLimit": "",
+                        "OptionPremium": "",
+                        "NetChangePremium": ""
+                      }
+                    ],
+                    "CreditOrSurcharge": {
+                      "CreditSurchargeCd": null,
+                      "NumericValue": {
+                        "FormatModFactor": 0
+                      }
+                    },
+                    "Rate": "",
+                    "MinPremAmt": {
+                      "Amt": 0
+                    },
+                    "AddlCoverage": [],
+                    "CreditOrSurchargeInfo": [],
+                    "CoverageType": ""
+                  },
+                  {
+                    "CoverageCd": "BPP",
+                    "CoverageDesc": "Business Personal Property",
+                    "Limit": [
+                      {
+                        "FormatCurrencyAmt": {
+                          "Amt": "175000"
+                        },
+                        "LimitAppliesToCd": "",
+                        "ValuationCd": "ACV"
+                      }
+                    ],
+                    "Deductible": [
+                      {
+                        "FormatInteger": 2500,
+                        "FormatPct": 0,
+                        "DeductibleTypeCd": "",
+                        "DeductibleAppliesToCd": "AllPeril"
+                      },
+                      {
+                        "FormatInteger": 0,
+                        "FormatPct": 2,
+                        "DeductibleTypeCd": "",
+                        "DeductibleAppliesToCd": "Wind"
+                      }
+                    ],
+                    "CommlCoverageSupplement": {
+                      "CoverageSubCd": "BASIC",
+                      "CoinsurancePct": "80",
+                      "ClaimMadeInfo": {
+                        "UnlimitedPriorActsCoverageInd": false,
+                        "CurrentRetroactiveDt": "0001-01-01T00:00:00",
+                        "RetroactiveCoverageInd": false
+                      }
+                    },
+                    "CurrentTermAmt": {
+                      "Amt": ""
+                    },
+                    "Option": [
+                      {
+                        "OptionTypeCd": "Wind",
+                        "OptionValue": "Incl",
+                        "OptionValueDesc": "",
+                        "LocationNo": "",
+                        "BuildingNo": "",
+                        "OptionGroup": "",
+                        "OptionLimit": "",
+                        "OptionPremium": "",
+                        "NetChangePremium": ""
+                      }
+                    ],
+                    "CreditOrSurcharge": {
+                      "CreditSurchargeCd": null,
+                      "NumericValue": {
+                        "FormatModFactor": 0
+                      }
+                    },
+                    "Rate": "",
+                    "MinPremAmt": {
+                      "Amt": 0
+                    },
+                    "AddlCoverage": [],
+                    "CreditOrSurchargeInfo": [],
+                    "CoverageType": ""
+                  }
+                ],
+                "Rate": 0,
+                "CurrentTermAmt": null,
+                "IRH_RatedPremium": 0,
+                "LocationRef": 1,
+                "SubLocationRef": 1,
+                "PropCarrierSpecified": {
+                  "SquareFootagePercentageOccupiedByInsured": "0",
+                  "IsOwnedByInsured": "true",
+                  "RoofShapeType": "",
+                  "RoofConstructionType": "",
+                  "IsHistoricalRegistry": "false",
+                  "IsTemporaryOrIncidental": "false",
+                  "IsPlumbingTypeInListOfIneligibleTypes": "false",
+                  "IsHeatingTypeInListOfIneligibleTypes": "false",
+                  "IsWiringTypeInListOfIneligibleTypes": "false",
+                  "IsElectricCircuitBreakerProtection": "false",
+                  "IsOperatingBusinessOpenPastMidnight": "false",
+                  "NumberOfUnitsOccupyTenant": "0",
+                  "PercentageOccupiedByInsured": "0.00",
+                  "PercentageVacantByInsured": ""
+                },
+                "RiskAppetiteCd": null
+              }
+            ],
+            "PropCarrierSpecifiedPolicyInfo": {
+              "AccountsReceivableLimitAmount": "10000",
+              "WaterSewageBackupLimitAmount": "10000",
+              "FireDepartmentServiceChargeLimitAmount": "5000",
+              "FireProtectionDeviceRechargeLimitAmount": "2500",
+              "ValuablePapersAndRecordsLimitAmount": "10000",
+              "PolicyLevelOptionalCoveragePremiumTotal": ""
+            }
+          }
+        },
+        "CyberLiabilityLineBusiness": null,
+        "CommlUmbrellaLineBusiness": null,
+        "EPLILineBusiness": null,
+        "JurisdictionTaxFee": {
+          "JurisdictionTaxFeeInfo": {
+            "TaxFee": []
+          }
+        },
+        "CompanyReferenceNumber": "",
+        "BrokerageCommissionInfo": {
+          "CommissionRatePct": 0,
+          "CommissionAmt": 0
+        },
+        "HomeownerLineBusiness": null,
+        "BindRiskInformation": null,
+        "ExcessFloodLineBusiness": null,
+        "WorkCompLineBusiness": null,
+        "DirectorsAndOfficersLineBusiness": null,
+        "FiduciaryLiabilityLineBusiness": null,
+        "CrimeLineBusiness": null,
+        "EPLLineBusiness": null,
+        "AdditionalQuestionList": {
+          "QuestionDetails": []
+        },
+        "KettleReAggLimitBreached": null,
+        "PriorLoss": {
+          "LossYearInfo": [],
+          "PriorLossHistoryInfo": []
+        },
+        "KidnapAndRansomLineBusiness": null,
+        "DeductibelbuyBackLineBusiness": null,
+        "ExcessAutoLiabilityBusiness": null,
+        "OtherOrPriorPolicy": null,
+        "TerrorismLineBusiness": null,
+        "MotorTruckCargoLineBusiness": null,
+        "AlliedHealthFacilitiesLineBusiness": null,
+        "PriorLossInfo": {
+          "LossTypeCd": "",
+          "LossDescription": "",
+          "IsClaimSettled": false,
+          "IsClaimFullyRepaired": false,
+          "LossDate": "",
+          "LossValue": 0,
+          "IsClaimAtThisLocation": false,
+          "LossTypeOther": "",
+          "IsCatLoss": "",
+          "IsChargeable": null,
+          "LOBCd": "",
+          "ClaimStatus": "",
+          "ClaimDate": ""
+        },
+        "PremiumDistributionList": {
+          "PremiumDistribution": []
+        },
+        "FloodLineBusiness": null,
+        "PriorCarrierInfo": {
+          "PriorCarrierDetail": []
+        }
+      },
+      "CyberLiabilityPolicyQuoteInqRs": null,
+      "CommlUmbrellaPolicyQuoteInqRs": null,
+      "DocumentPolicyQuoteInqRs": null,
+      "HomeownerPolicyQuoteInqRs": null,
+      "BindQuoteInqRs": null,
+      "CancelQuoteRs": null,
+      "ReinstateQuoteInqRs": null,
+      "RevokeQuoteInqRs": null,
+      "ExcessFloodPolicyQuoteInqRs": null,
+      "WorkCompPolicyQuoteInqRs": null,
+      "DocumentTypePolicyQuoteInqRs": null,
+      "ProfessionalLiabilityPolicyQuoteInqRs": null,
+      "OptionalAdditionalCoverageInqRs": null,
+      "CommlDeductibelbuyBackQuoteInqRs": null,
+      "ExcessAutoLiabilityQuoteInqRs": null,
+      "ReviveQuoteInqRs": null,
+      "CommlTerrorismQuoteInqRs": null,
+      "MotorTruckCargoQuoteInqRs": null,
+      "EligibilityRs": null,
+      "AlliedHealthFacilitiesPolicyQuoteInqRs": null,
+      "FloodPolicyQuoteInqRs": null
+    }
+  },
+  {
+    "SignonRs": {
+      "SignonPswd": {
+        "CustId": {
+          "CustLoginId": "SLBGROUP",
+          "SPName": ""
+        },
+        "CustPswd": {
+          "Pswd": null
+        }
+      }
+    },
+    "InsuranceSvcRs": {
+      "RqUID": "4ac5e506-a9b0-40d8-a7be-45a2800f4878",
+      "IRH_QuoteNo": "Your System Quote #",
+      "IRH_Application_Type": "QRB",
+      "IRH_Application_Name": "Your Application Name",
+      "IRH_Request_Type": "RATE",
+      "comIRH_CarrierRequestExt": {
+        "comIRH_CarrierInfoExt": [
+          {
+            "IRH_CarrierName": "ACI",
+            "IRH_ReRateRqUID": "",
+            "IRH_AdmittedStatus": "N",
+            "IRH_TimeTaken": "00:00:01.7885744",
+            "IRH_OfficeCd": "",
+            "IRH_NAICCd": null,
+            "IRH_BusinessPurposeTypecd": "",
+            "CarrierAgencyID": ""
+          }
+        ]
+      },
+      "CommlGeneralLiabilityPolicyQuoteInqRs": null,
+      "CommlPropertyPolicyQuoteInqRs": null,
+      "EPLIPolicyQuoteInqRs": null,
+      "CommlPkgPolicyQuoteInqRs": {
+        "IRH_Rating_StatusCd": "Success",
+        "MsgStatus": [
+          {
+            "MsgStatusCd": "SuccessWithInfo",
+            "MsgErrorCd": "",
+            "MsgStatusDesc": "Abatement work prohibited.  Submit wood flooring contractors.$500 P.D. Ded per Claim. CG0300.",
+            "ChangeStatus": {
+              "ActionCd": null,
+              "ChangeDesc": null
+            }
+          },
+          {
+            "MsgStatusCd": "SuccessWithInfo",
+            "MsgErrorCd": "",
+            "MsgStatusDesc": "<span style=\"font-family: arial;\">Class applies to risks engaged in the ownership or rental of buildings used for residential occupancies and include the portion of the premises occupied by the owner. This class applies to apartments that do not have a distinct classification.<br />\n<br />\n<strong>Included, but not limited to:</strong><br />\n<br />\n• Maintenance work by employees or subcontractors<br />\n• Security<br />\n• Landscaping<br />\n• Collections<br />\n• Office work<br />\n<br />\n<strong>Separately class and rate:</strong><br />\n<br />\n• Occupancy other than for residential purposes or multiple use will be classified and rated using the appropriate Lessors Risk Only classification<br />\n• One-to four family dwellings will be classified and rated using code 63010, 63011, 63012 or 63013<br />\n• Boarding or rooming houses will be classified and rated using code 61000<br />\n• Indoor Parking will be classified and rated using code 46603 or 46622<br />\n• Swimming Pools will be classified and rated using code 48924 or 48925<br />\n• Bathing beaches will be classified and rated using code 10135 or 40072<br />\n• Time-sharing apartment buildings operated by owner associations will be classified and rated using Condominium - Residential-Association Risk Only 62003<br />\n<br />\n<strong>Underwriting Criteria:</strong><br />\n<br />\n• Inspection required<br />\n• Supplemental application required<br />\n• Swimming pool must meet requirements of AGL-053 or there is no coverage:<br />\n• Check online review sites, such as Trip Advisor and Yelp for ratings and reviews<br />\n• Check Google Earth images for property condition and desirability<br />\n• Rooms must have functional smoke detectors and if battery operated, a schedule must be in place to replace the batteries<br />\n• If risk is located in CA or Northeast, please refer to state exception page for additional requirements/guidelines<br />\n• CA risks must confirm that risk has complied with SB721 of the California Health and Safety Code<br />\n• <strong>Assault & Battery:</strong><br />\n• Assault & Battery does not need to be addressed if the crime score for the risk is below a 70 on Sperlings Bestplaces. Please use http://www.bestplaces.com to input a zip code and retrieve a crime score<br />\n• If the violent and/or property score is 70 or above, an Assault and Battery sublimit is required <br />\n• Sublimits available: $25K/$50K; $50K/$100K; $100K/$300K. Form AGL-125 applies if sublimit applied.<br />\n• Assault & Battery may also be excluded. Form AGL- 046 applies<br />\n<br />\n<strong>Submit:</strong><br />\n<br />\n• Subsidized housing<br />\n• Student housing<br />\n• Armed security on premises<br />\n• Hostels<br />\n• Risks with more than 50 units<br />\n<br />\n<strong>Prohibit:</strong><br />\n<br />\n• Assisted living facilities<br />\n• Nursing/Convalescent homes<br />\n• Fraternity or sorority houses<br />\n<br />\n<strong>Required Class specific forms:</strong> AGL-053 (with pool, pool supplement mandatory) or AGL-007 (without pool). AGL-036, CG2144.</span>",
+            "ChangeStatus": {
+              "ActionCd": null,
+              "ChangeDesc": null
+            }
+          },
+          {
+            "MsgStatusCd": "SuccessWithInfo",
+            "MsgErrorCd": "",
+            "MsgStatusDesc": "If AGL-117 is attached, a 10% pricing credit may be applied to the rate in our ACES program.",
+            "ChangeStatus": {
+              "ActionCd": null,
+              "ChangeDesc": null
+            }
+          },
+          {
+            "MsgStatusCd": "SuccessWithInfo",
+            "MsgErrorCd": "",
+            "MsgStatusDesc": "{\"requestValidationFailures\":[\"The specified agent number is invalid.\"]}",
+            "ChangeStatus": {
+              "ActionCd": null,
+              "ChangeDesc": null
+            }
+          },
+          {
+            "MsgStatusCd": "SuccessWithInfo",
+            "MsgErrorCd": "",
+            "MsgStatusDesc": "Discretionary Pricing May Be Available Subject To Premium Eligibility. Please Contact Your MGA Underwriter For More Details.",
+            "ChangeStatus": {
+              "ActionCd": null,
+              "ChangeDesc": null
+            }
+          }
+        ],
+        "FormsRequestedCd": "BOTH",
+        "SaveIndicationCd": "Yes",
+        "Producer": [
+          {
+            "GeneralPartyInfo": {
+              "NameInfo": {
+                "CommlName": {
+                  "CommercialName": "Sara Baker"
+                },
+                "PersonName": {
+                  "Surname": "",
+                  "GivenName": "",
+                  "MiddleName": ""
+                },
+                "SupplementaryNameInfo": {
+                  "SupplementaryName": "",
+                  "SupplementaryNameCd": ""
+                },
+                "IRH_ReferenceInsuredID": "",
+                "LegalEntityCd": null
+              },
+              "Communications": {
+                "EmailInfo": {
+                  "CommunicationUseCd": "",
+                  "EmailAddr": "test@gmail.com"
+                },
+                "WebsiteInfo": {
+                  "WebsiteURL": "",
+                  "IRH_Insured_WebsiteURL": null
+                },
+                "PhoneInfo": {
+                  "PhoneNumber": "501-227-9670",
+                  "Fax": "(501) 227-8105"
+                }
+              },
+              "Addr": {
+                "Addr1": "11101 Anderson Dr",
+                "Addr2": "",
+                "City": "Little Rock",
+                "StateProvCd": "AR",
+                "PostalCode": "72212",
+                "Latitude": "",
+                "Longitude": "",
+                "County": "",
+                "TerritoryCd": "",
+                "HouseNumber": null,
+                "StreetNumber": ""
+              },
+              "PhysicalAddr": null,
+              "PersonInfo": {
+                "FirstName": "",
+                "MiddleName": "",
+                "LastName": "",
+                "BirthDt": "0001-01-01T00:00:00Z",
+                "OccupationClassCd": "",
+                "TaxIdentity": [],
+                "CarrierUserName": ""
+              },
+              "OperationsDesc": ""
+            },
+            "ProducerInfo": {
+              "ProducerRoleCd": "LoggedInUser",
+              "ContractNumber": ""
+            }
+          },
+          {
+            "GeneralPartyInfo": {
+              "NameInfo": {
+                "CommlName": {
+                  "CommercialName": "Sara Baker"
+                },
+                "PersonName": {
+                  "Surname": "",
+                  "GivenName": "",
+                  "MiddleName": ""
+                },
+                "SupplementaryNameInfo": {
+                  "SupplementaryName": "",
+                  "SupplementaryNameCd": ""
+                },
+                "IRH_ReferenceInsuredID": "",
+                "LegalEntityCd": null
+              },
+              "Communications": {
+                "EmailInfo": {
+                  "CommunicationUseCd": "",
+                  "EmailAddr": "test@gmail.com"
+                },
+                "WebsiteInfo": {
+                  "WebsiteURL": "",
+                  "IRH_Insured_WebsiteURL": null
+                },
+                "PhoneInfo": {
+                  "PhoneNumber": "501-227-9670",
+                  "Fax": "(501) 227-8105"
+                }
+              },
+              "Addr": {
+                "Addr1": "11101 Anderson Dr",
+                "Addr2": "",
+                "City": "Little Rock",
+                "StateProvCd": "AR",
+                "PostalCode": "72212",
+                "Latitude": "",
+                "Longitude": "",
+                "County": "",
+                "TerritoryCd": "",
+                "HouseNumber": null,
+                "StreetNumber": ""
+              },
+              "PhysicalAddr": null,
+              "PersonInfo": {
+                "FirstName": "",
+                "MiddleName": "",
+                "LastName": "",
+                "BirthDt": "0001-01-01T00:00:00Z",
+                "OccupationClassCd": "",
+                "TaxIdentity": [],
+                "CarrierUserName": ""
+              },
+              "OperationsDesc": ""
+            },
+            "ProducerInfo": {
+              "ProducerRoleCd": "UN",
+              "ContractNumber": ""
+            }
+          }
+        ],
+        "InsuredOrPrincipal": {
+          "GeneralPartyInfo": {
+            "NameInfo": {
+              "CommlName": {
+                "CommercialName": "John Doe"
+              },
+              "PersonName": {
+                "Surname": "Doe",
+                "GivenName": "John",
+                "MiddleName": ""
+              },
+              "SupplementaryNameInfo": {
+                "SupplementaryName": "",
+                "SupplementaryNameCd": ""
+              },
+              "IRH_ReferenceInsuredID": "",
+              "LegalEntityCd": null
+            },
+            "Communications": {
+              "EmailInfo": {
+                "CommunicationUseCd": "",
+                "EmailAddr": ""
+              },
+              "WebsiteInfo": {
+                "WebsiteURL": "",
+                "IRH_Insured_WebsiteURL": null
+              },
+              "PhoneInfo": {
+                "PhoneNumber": "",
+                "Fax": ""
+              }
+            },
+            "Addr": {
+              "Addr1": "18077 River Rd",
+              "Addr2": "",
+              "City": "Noblesville",
+              "StateProvCd": "IN",
+              "PostalCode": "46062",
+              "Latitude": "",
+              "Longitude": "",
+              "County": "Hamilton",
+              "TerritoryCd": "503",
+              "HouseNumber": null,
+              "StreetNumber": ""
+            },
+            "PhysicalAddr": {
+              "Addr1": "18077 River Rd",
+              "Addr2": "",
+              "City": "Noblesville",
+              "StateProvCd": "IN",
+              "PostalCode": "46062",
+              "Latitude": "",
+              "Longitude": "",
+              "County": "Hamilton",
+              "TerritoryCd": "503",
+              "HouseNumber": null,
+              "StreetNumber": ""
+            },
+            "PersonInfo": {
+              "FirstName": "",
+              "MiddleName": "",
+              "LastName": "",
+              "BirthDt": "0001-01-01T00:00:00Z",
+              "OccupationClassCd": "",
+              "TaxIdentity": [],
+              "CarrierUserName": ""
+            },
+            "OperationsDesc": ""
+          },
+          "InsuredOrPrincipalInfo": {
+            "InsuredOrPrincipalRoleCd": "Insured"
+          },
+          "HRInfo": {
+            "HrContactName": "",
+            "HrContactEmail": "",
+            "HrContactTitle": "",
+            "HrContactPhone": ""
+          }
+        },
+        "Policy": {
+          "PolicyNumber": "",
+          "LOBCd": "CPKGE",
+          "NAICCd": "",
+          "LOBSubCd": "",
+          "ContractTerm": {
+            "EffectiveDt": "2025-09-15T00:00:00",
+            "ExpirationDt": "2026-09-15T00:00:00",
+            "OriginalPolicyInceptionDt": "0001-01-01T00:00:00",
+            "TransactionEffectiveDt": "0001-01-01T00:00:00"
+          },
+          "CurrentTermAmt": {
+            "Amt": "4416"
+          },
+          "Form": [
+            {
+              "FormNumber": "ACI-GLB",
+              "FormName": "PRIVACY POLICY",
+              "EditionDt": "1920-01-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/ACIGLB-0120.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "1920-01-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "IL0017",
+              "FormName": "COMMON POLICY CONDITIONS",
+              "EditionDt": "1998-11-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/IL0017-5549.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "1998-11-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "A-MEP1",
+              "FormName": "MINIMUM EARNED PREMIUM",
+              "EditionDt": "2008-01-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/AMEP1-2475.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "2008-01-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "IL0021",
+              "FormName": "NUCLEAR ENERGY LIAB EXCL END",
+              "EditionDt": "2008-09-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/IL0021-5491.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "2008-09-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "AGL-012",
+              "FormName": "PREMIUM AUDIT DEPOSIT PREMIUM",
+              "EditionDt": "2018-08-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/AGL012-0818.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "2018-08-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "ACI-0272IN",
+              "FormName": "INDIANA CHANGES-CANCELLATION AND NON-RENEWAL",
+              "EditionDt": "1925-01-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/ACI0272IN-0125.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "1925-01-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "ILP001",
+              "FormName": "OFAC",
+              "EditionDt": "2004-01-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/ILP0001-0104.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "2004-01-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "IN NOTICE",
+              "FormName": "INDIANA NOTICE TO POLICYHOLDER",
+              "EditionDt": "2002-06-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/INNOTICE-3382.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "2002-06-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "ACI-102",
+              "FormName": "CLAIM REPORTING",
+              "EditionDt": "1922-06-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/ACI102-0622.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "1922-06-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "AGL-179",
+              "FormName": "CONDITION - WHEN WE DO NOT RENEW",
+              "EditionDt": "1922-03-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/AGL179-0322.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "1922-03-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "AGL-151",
+              "FormName": "AUTO, AIRCRAFT, WATERCRAFT EXCLUSION",
+              "EditionDt": "2018-03-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/AGL151-0318.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "2018-03-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "AGL-003",
+              "FormName": "EXCLUSION - PUNITIVE DAMAGES",
+              "EditionDt": "2017-01-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/AGL003-1259.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "2017-01-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "ACI-SOS",
+              "FormName": "SERVICE OF SUIT ENDORSEMENT",
+              "EditionDt": "2016-07-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/ACISOS-1645.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "2016-07-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "CG0001",
+              "FormName": "COMMERCIAL GENERAL LIABILITY COVERAGE FORM",
+              "EditionDt": "2001-10-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/CG0001-7623.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "2001-10-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "ACI-103",
+              "FormName": "EXCLUSION - CYBER INCIDENT",
+              "EditionDt": "1923-08-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/ACI103-0823.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "1923-08-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "CPACI-1420",
+              "FormName": "ADDITIONAL PROPERTY NOT COVERED",
+              "EditionDt": "1923-09-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/CPACI1420-0923.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "1923-09-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "ACI0995",
+              "FormName": "CONDITIONAL EXCL OF TERRORISM- PROP/IM",
+              "EditionDt": "1920-11-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/ACI0995-1120.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "1920-11-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "CP0010",
+              "FormName": "BUILDING AND PERSONAL PROPERTY COVERAGE FORM",
+              "EditionDt": "2012-10-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/CP0010-1012.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "2012-10-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "CP0090",
+              "FormName": "COMMERCIAL PROPERTY CONDITIONS",
+              "EditionDt": "1988-07-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/CP0090-4956.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "1988-07-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "CPMOLD",
+              "FormName": "MOLD,FUNGUS,BACTERIA,VIRUS,ORGANIC PATHOGEN",
+              "EditionDt": "2014-12-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/CPMOLD-1214.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "2014-12-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "CPACI-PDEXCL",
+              "FormName": "PROPERTY EXCLUSION-PRIOR DAMAGE",
+              "EditionDt": "1921-07-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/CPACIPDEXCL-0721.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "1921-07-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "ACI-AOBE",
+              "FormName": "ASSIGNMENT OF BENEFITS",
+              "EditionDt": "2017-12-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/ACIAOBE-1217.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "2017-12-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "CG0069",
+              "FormName": "EXCLUSION - VIOLATION OF LAW ADDRESSING DATA PRIVACY",
+              "EditionDt": "1923-12-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/CG0069-1223.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "1923-12-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "CG2106",
+              "FormName": "EXCL - ACCESS/DISCLOSURE PERSONAL MATERIAL",
+              "EditionDt": "1923-12-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/CG2106-1223.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "1923-12-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "ACI2187",
+              "FormName": "CONDITIONAL EXCL OF TERRORISM- PROP/IM",
+              "EditionDt": "1920-11-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/ACI2187-1120.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "1920-11-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "CG4032",
+              "FormName": "EXCLUSION - PERFLUOROALKYL AND POLYFLUOROALKYL SUBSTANCES (PFAS)",
+              "EditionDt": "1923-05-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/CG4032-0523.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "1923-05-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "CG0300",
+              "FormName": "DEDUCTIBLE LIABILITY INSURANCE",
+              "EditionDt": "1996-01-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/CG0300-9673.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "1996-01-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "ACI2173",
+              "FormName": "EXCLUSION OF CERTIFIED ACTS OF TERRORISM",
+              "EditionDt": "1920-09-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/ACI2173-0920.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "1920-09-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "CG2173",
+              "FormName": "",
+              "EditionDt": "0001-01-01T00:00:00",
+              "WebsiteURL": "",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "0001-01-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "AGL-054",
+              "FormName": "EXCL - MOLD,BACTERIA,VIRUS AND ORG PATHOGEN",
+              "EditionDt": "2018-12-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/AGL054-1218.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "2018-12-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "AGL-055A",
+              "FormName": "EXCL OF INJURY TO EMPLOYEE, CONTRACTOR",
+              "EditionDt": "2013-03-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/AGL055A-1426b.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "2013-03-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "AGL-073",
+              "FormName": "EXCLUSION - MENTAL INJURY",
+              "EditionDt": "2017-01-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/AGL073-1329.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "2017-01-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "AGL-004",
+              "FormName": "EXCLUSION - ASBESTOS OR SILICA",
+              "EditionDt": "2017-01-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/AGL004-1229.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "2017-01-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "AGL-066",
+              "FormName": "LIMITATION - MAXIMUM AVAILABLE LIMIT OF INSUR",
+              "EditionDt": "2013-03-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/AGL066-1854.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "2013-03-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "AGL-069",
+              "FormName": "EXCLUSION - SNOW AND/OR ICE REMOVAL",
+              "EditionDt": "2017-01-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/AGL069-1279.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "2017-01-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "AGL-074",
+              "FormName": "LIMITATION - RIGHT TO SELECT COUNSEL",
+              "EditionDt": "2017-01-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/AGL074-1289.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "2017-01-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "AGL-079",
+              "FormName": "LIMITATION - IMPORTED DRYWALL",
+              "EditionDt": "2013-03-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/AGL079-2345.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "2013-03-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "AGL-096",
+              "FormName": "CONDITION - ARBITRATION",
+              "EditionDt": "2013-03-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/AGL096-6250.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "2013-03-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "AGL-106",
+              "FormName": "AMENDED DEFINITION - PROPERTY DAMAGE",
+              "EditionDt": "2013-03-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/AGL106-1921.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "2013-03-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "AGL-077",
+              "FormName": "INSUR AGREEMENT AMENDMENT-USE OF EXTRINSIC EVID",
+              "EditionDt": "2016-10-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/AGL077-1016.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "2016-10-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "AGL-080",
+              "FormName": "EXCL-OPER COVERED BY CONSOLIDATED INS PROGRAM",
+              "EditionDt": "2013-03-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/AGL080-1991.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "2013-03-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "AGL-112",
+              "FormName": "EXCLUSION - VOLUNTEER WORKERS",
+              "EditionDt": "2013-03-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/AGL112-1514.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "2013-03-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "AGL-114",
+              "FormName": "AMENDMENT OF POLLUTANT DEFINITION",
+              "EditionDt": "2013-03-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/AGL114-6708.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "2013-03-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "AGL-046",
+              "FormName": "EXCLUSION - ASSAULT AND/OR BATTERY",
+              "EditionDt": "1925-01-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/AGL046-0125.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "1925-01-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "AGL-005",
+              "FormName": "EXCL - INDEPENDENT CONTRACTORS OR SUBCONTRACT",
+              "EditionDt": "2010-10-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/AGL005-9218.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "2010-10-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "AGL-071",
+              "FormName": "TERMS, CONDITIONS, AND PREMIUM",
+              "EditionDt": "2013-03-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/AGL071-7289.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "2013-03-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "AGL-072",
+              "FormName": "EXCLUSION - EARTH MOVEMENT",
+              "EditionDt": "2013-03-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/AGL072-6115.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "2013-03-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "AGL-169",
+              "FormName": "EXCLUSION BREACH OF CONTRACT",
+              "EditionDt": "1924-03-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/AGL169-0324.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "1924-03-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "AGL-036",
+              "FormName": "EXCLUSION - ANIMALS OR INSECTS",
+              "EditionDt": "1923-05-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/AGL036-0523.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "1923-05-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "AGL-131",
+              "FormName": "EXCLUSION - CLAIMS IN PROCESS",
+              "EditionDt": "2015-04-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/AGL131-0415.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "2015-04-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "AGL-001",
+              "FormName": "EXCLUSION - COMMUNICABLE DISEASE",
+              "EditionDt": "2017-01-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/AGL001-9578.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "2017-01-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "AGL-050",
+              "FormName": "EXCLUSION EIFS",
+              "EditionDt": "2013-03-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/AGL050-3119.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "2013-03-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "AGL-068",
+              "FormName": "EXCLUSION - EXPECTED OR INTENDED",
+              "EditionDt": "2013-03-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/AGL068-1920.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "2013-03-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "AGL-081",
+              "FormName": "EXCLUSION - SUITS BETWEEN NAMED INSUREDS",
+              "EditionDt": "2017-01-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/AGL081-1299.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "2017-01-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "ACI-107",
+              "FormName": "EXCLUSION - HUMAN TRAFFICKING",
+              "EditionDt": "1925-01-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/ACI107-0125.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "1925-01-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "AGL-007",
+              "FormName": "EXCLUSION WATER HAZARDS",
+              "EditionDt": "1925-02-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/AGL007-0225.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "1925-02-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "AGL-064",
+              "FormName": "EXCLUSION - TOTAL POLLUTION",
+              "EditionDt": "2013-03-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/AGL064-3550.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "2013-03-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "AGL-108",
+              "FormName": "EXCLUSION - EMPLOYMENT-RELATED PRACTICES",
+              "EditionDt": "2018-05-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/AGL1080518.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "2018-05-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "AGL-156",
+              "FormName": "LIMITATION-CONDOMINIUMS, TOWNHOMES, TOWNHOUSES, TRACT HOUSES",
+              "EditionDt": "1925-03-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/AGL156-0325.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "1925-03-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "CG2136",
+              "FormName": "EXCLUSIONS-NEW ENTITIES",
+              "EditionDt": "1996-01-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/CG2136-1295.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "1996-01-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "CG2144",
+              "FormName": "LIMITATION OF COV TO DESIGNATED PREMISES",
+              "EditionDt": "1998-07-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/CG2144-3243.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "1998-07-01T00:00:00",
+              "FormType": ""
+            },
+            {
+              "FormNumber": "AGL-002",
+              "FormName": "EXCLUSION - LEAD BEARING SUBSTANCE",
+              "EditionDt": "2017-01-01T00:00:00",
+              "WebsiteURL": "https://aces.atlanticcasualty.net/emanuals/forms - Watermark/AGL002-5479.PDF",
+              "EndFormRequiredInd": "1",
+              "EffectiveDt": "2017-01-01T00:00:00",
+              "FormType": ""
+            }
+          ],
+          "NumLosses": null,
+          "NumLossesYrs": null,
+          "IRH_LossFreeYears": null,
+          "IRH_YrsInBus": null,
+          "MiscParty": {
+            "GeneralPartyInfo": {
+              "NameInfo": {
+                "CommlName": {
+                  "CommercialName": ""
+                },
+                "PersonName": {
+                  "Surname": "",
+                  "GivenName": "",
+                  "MiddleName": ""
+                },
+                "SupplementaryNameInfo": {
+                  "SupplementaryName": "",
+                  "SupplementaryNameCd": ""
+                },
+                "IRH_ReferenceInsuredID": "",
+                "LegalEntityCd": null
+              },
+              "Communications": {
+                "EmailInfo": {
+                  "CommunicationUseCd": "",
+                  "EmailAddr": ""
+                },
+                "WebsiteInfo": {
+                  "WebsiteURL": "",
+                  "IRH_Insured_WebsiteURL": null
+                },
+                "PhoneInfo": {
+                  "PhoneNumber": "",
+                  "Fax": ""
+                }
+              },
+              "Addr": {
+                "Addr1": "",
+                "Addr2": "",
+                "City": "",
+                "StateProvCd": "",
+                "PostalCode": "",
+                "Latitude": "",
+                "Longitude": "",
+                "County": "",
+                "TerritoryCd": "",
+                "HouseNumber": null,
+                "StreetNumber": ""
+              },
+              "PhysicalAddr": null,
+              "PersonInfo": {
+                "FirstName": "",
+                "MiddleName": "",
+                "LastName": "",
+                "BirthDt": "",
+                "OccupationClassCd": "",
+                "TaxIdentity": null,
+                "CarrierUserName": ""
+              },
+              "OperationsDesc": ""
+            }
+          },
+          "Coverage": [],
+          "IRH_RatedPremium": 4416,
+          "MinPremInd": "No",
+          "MinPremAmt": {
+            "Amt": 0
+          },
+          "LocationUWInfo": [],
+          "PolicySupplement": null,
+          "IRH_RSUI_LocNo": null,
+          "IRH_RSUI_Loc": null,
+          "IRH_RSUI_UWKey": null,
+          "PaymentOption": null,
+          "NumYrsInBusiness": null,
+          "NetChangeAmt": {
+            "Amt": ""
+          },
+          "Subjectivities": [],
+          "MinimumEarnedPct": null,
+          "RenewId": null,
+          "AdditionalInterestList": {
+            "AdditionalInterest": []
+          },
+          "PollicyCarrierSpecified": {
+            "IsPriorFelonyConvictions": "",
+            "IsBankruptcy": ""
+          },
+          "PolicyUWQuestionList": null,
+          "CreditDebitSurcharge": null,
+          "RevisedFullTermAmt": {
+            "Amt": ""
+          },
+          "IsNewVenture": null,
+          "SLANumber": "",
+          "PolicyExtensionInfo": {
+            "IsPolicyExtension": false,
+            "PolicyExtensionPeriodCd": "",
+            "PolicyExtensionPeriodValue": "",
+            "PolicyExtensionEffectiveDate": "0001-01-01T00:00:00"
+          },
+          "ExternalURLList": {
+            "ExternalURL": []
+          },
+          "AnniversaryRatingDt": null,
+          "NumYrsInIndustry": null
+        },
+        "TransactionRequestDt": "2025-09-15T00:00:00",
+        "comIRH_GoverningStateExt": "IN",
+        "FormsRequestCd": "",
+        "CompanysQuoteNumber": "",
+        "Location": [
+          {
+            "Addr": {
+              "Addr1": "18077 River Rd",
+              "Addr2": "",
+              "City": "Noblesville",
+              "StateProvCd": "IN",
+              "PostalCode": "46062",
+              "Latitude": "",
+              "Longitude": "",
+              "County": "Hamilton",
+              "TerritoryCd": "503",
+              "HouseNumber": null,
+              "StreetNumber": "509"
+            },
+            "SubLocation": [
+              {
+                "Addr": {
+                  "Addr1": "18077 River Rd",
+                  "Addr2": "",
+                  "City": "Noblesville",
+                  "StateProvCd": "IN",
+                  "PostalCode": "46062",
+                  "Latitude": "",
+                  "Longitude": "",
+                  "County": "Hamilton",
+                  "TerritoryCd": "503",
+                  "HouseNumber": null,
+                  "StreetNumber": "509"
+                },
+                "id": 1
+              }
+            ],
+            "id": 1,
+            "CrimeScore": "",
+            "WildfireRiskScore": ""
+          }
+        ],
+        "LocationUWInfo": [
+          {
+            "Construction": {
+              "ConstructionCd": "JM",
+              "YearBuilt": "1983",
+              "BldgArea": {
+                "NumUnits": 1700,
+                "UnitMeasurementCd": "",
+                "RangeValue": ""
+              },
+              "NumStories": "1",
+              "RoofingMaterial": {
+                "RoofMaterialCd": ""
+              },
+              "RoofGeometryTypeCd": "",
+              "CladdingTypeCd": "",
+              "ConstructionQualityCd": "",
+              "FrameFoundationConnectionCd": "",
+              "RoofWallAttachmentCd": "",
+              "RoofDeckMaterialCd": "",
+              "RoofEquipmentHurricaneCd": "",
+              "WindOpeningProtectionCd": "",
+              "FoundationCd": null,
+              "ElectricalTypeCd": "",
+              "HeatSourcePrimaryCd": "",
+              "BasementTypeCd": ""
+            },
+            "BldgProtection": {
+              "DistanceToFireStation": "",
+              "DistanceToHydrant": "",
+              "ProtectionDeviceBurglarCd": "",
+              "ProtectionDeviceFireCd": "",
+              "ProtectionClassGradeCd": "7",
+              "ProtectionDeviceSprinklerCd": "NO",
+              "SprinkleredPct": "",
+              "ElectricalProtectionCd": "",
+              "ProtectionDeviceMotionDetectorCd": "",
+              "ProtectionDeviceSmokeCd": "",
+              "DoorLockCd": "",
+              "ProtectionDeviceBurglarLevel": "",
+              "IsStormShutters": "false",
+              "IsSmokeDetectors": "false",
+              "IsAnsulSystem": "false"
+            },
+            "BldgImprovements": {
+              "HeatingImprovementYear": "2017",
+              "comIRH_PlumbingTypeCdExt": "",
+              "PlumbingImprovementYear": "1983",
+              "RoofingImprovementYear": "2013",
+              "WiringImprovementYear": "1983",
+              "comIRH_WiringYearExt": "",
+              "comIRH_HeatingTypeCdExt": "",
+              "comIRH_WiringTypeCdExt": "",
+              "comIRH_RoofingTypeCdExt": ""
+            },
+            "BldgOccupancy": {
+              "OccupancyTypeCd": "",
+              "OccupancyDesc": "",
+              "VacancyInfo": {
+                "VacancyDt": ""
+              },
+              "RentalType": ""
+            },
+            "AlarmAndSecurity": [],
+            "TerritoryCd": "503",
+            "DistanceToOceanOrOtherBodyWater": {
+              "NumUnits": 0,
+              "UnitMeasurementCd": "",
+              "RangeValue": ""
+            },
+            "LocationRef": 1,
+            "SubLocationRef": 1,
+            "RoofType": "",
+            "SquareFootage": "",
+            "CoverageTotalInsuredValue": "",
+            "TotalNoOfLoss": "",
+            "Exclusions": {
+              "IsVandalismExclusion": "false",
+              "IsSprinklerLeakageExclusion": "false",
+              "IsSinkholeExclusion": "false",
+              "IsWaterDamageExclusion": "false",
+              "WaterDamageSublimitAmount": "",
+              "RoofExclusion": "false",
+              "IsTheftExclusion": "",
+              "TheftSublimitAmount": ""
+            }
+          }
+        ],
+        "GeneralLiabilityLineBusiness": {
+          "CurrentTermAmt": {
+            "Amt": "4416"
+          },
+          "IRH_RatedPremium": 4416,
+          "MinPremInd": "No",
+          "MinPremAmt": {
+            "Amt": 0
+          },
+          "LiabilityInfo": {
+            "Coverage": [
+              {
+                "CoverageCd": "GENAG",
+                "CoverageDesc": "General Aggregate",
+                "Limit": [
+                  {
+                    "FormatCurrencyAmt": {
+                      "Amt": "2000000"
+                    },
+                    "LimitAppliesToCd": "Aggregate",
+                    "ValuationCd": null
+                  }
+                ],
+                "Deductible": [],
+                "CommlCoverageSupplement": {
+                  "CoverageSubCd": null,
+                  "CoinsurancePct": null,
+                  "ClaimMadeInfo": {
+                    "UnlimitedPriorActsCoverageInd": false,
+                    "CurrentRetroactiveDt": "0001-01-01T00:00:00",
+                    "RetroactiveCoverageInd": false
+                  }
+                },
+                "CurrentTermAmt": {
+                  "Amt": ""
+                },
+                "Option": [],
+                "CreditOrSurcharge": {
+                  "CreditSurchargeCd": null,
+                  "NumericValue": {
+                    "FormatModFactor": 0
+                  }
+                },
+                "Rate": "",
+                "MinPremAmt": {
+                  "Amt": 0
+                },
+                "AddlCoverage": null,
+                "CreditOrSurchargeInfo": null,
+                "CoverageType": ""
+              },
+              {
+                "CoverageCd": "EAOCC",
+                "CoverageDesc": "Each Occurrence",
+                "Limit": [
+                  {
+                    "FormatCurrencyAmt": {
+                      "Amt": "1000000"
+                    },
+                    "LimitAppliesToCd": "PerOcc",
+                    "ValuationCd": null
+                  }
+                ],
+                "Deductible": [],
+                "CommlCoverageSupplement": {
+                  "CoverageSubCd": null,
+                  "CoinsurancePct": null,
+                  "ClaimMadeInfo": {
+                    "UnlimitedPriorActsCoverageInd": false,
+                    "CurrentRetroactiveDt": "0001-01-01T00:00:00",
+                    "RetroactiveCoverageInd": false
+                  }
+                },
+                "CurrentTermAmt": {
+                  "Amt": ""
+                },
+                "Option": [],
+                "CreditOrSurcharge": {
+                  "CreditSurchargeCd": null,
+                  "NumericValue": {
+                    "FormatModFactor": 0
+                  }
+                },
+                "Rate": "",
+                "MinPremAmt": {
+                  "Amt": 0
+                },
+                "AddlCoverage": null,
+                "CreditOrSurchargeInfo": null,
+                "CoverageType": ""
+              },
+              {
+                "CoverageCd": "PRDCO",
+                "CoverageDesc": "Products/Completed Operations",
+                "Limit": [
+                  {
+                    "FormatCurrencyAmt": {
+                      "Amt": "2000000"
+                    },
+                    "LimitAppliesToCd": "PerOcc",
+                    "ValuationCd": null
+                  }
+                ],
+                "Deductible": [],
+                "CommlCoverageSupplement": {
+                  "CoverageSubCd": null,
+                  "CoinsurancePct": null,
+                  "ClaimMadeInfo": {
+                    "UnlimitedPriorActsCoverageInd": false,
+                    "CurrentRetroactiveDt": "0001-01-01T00:00:00",
+                    "RetroactiveCoverageInd": false
+                  }
+                },
+                "CurrentTermAmt": {
+                  "Amt": ""
+                },
+                "Option": [],
+                "CreditOrSurcharge": {
+                  "CreditSurchargeCd": null,
+                  "NumericValue": {
+                    "FormatModFactor": 0
+                  }
+                },
+                "Rate": "",
+                "MinPremAmt": {
+                  "Amt": 0
+                },
+                "AddlCoverage": null,
+                "CreditOrSurchargeInfo": null,
+                "CoverageType": ""
+              },
+              {
+                "CoverageCd": "PIADV",
+                "CoverageDesc": "Personal Injury And Advertising",
+                "Limit": [
+                  {
+                    "FormatCurrencyAmt": {
+                      "Amt": "1000000"
+                    },
+                    "LimitAppliesToCd": "",
+                    "ValuationCd": null
+                  }
+                ],
+                "Deductible": [],
+                "CommlCoverageSupplement": {
+                  "CoverageSubCd": null,
+                  "CoinsurancePct": null,
+                  "ClaimMadeInfo": {
+                    "UnlimitedPriorActsCoverageInd": false,
+                    "CurrentRetroactiveDt": "0001-01-01T00:00:00",
+                    "RetroactiveCoverageInd": false
+                  }
+                },
+                "CurrentTermAmt": {
+                  "Amt": ""
+                },
+                "Option": [],
+                "CreditOrSurcharge": {
+                  "CreditSurchargeCd": null,
+                  "NumericValue": {
+                    "FormatModFactor": 0
+                  }
+                },
+                "Rate": "",
+                "MinPremAmt": {
+                  "Amt": 0
+                },
+                "AddlCoverage": null,
+                "CreditOrSurchargeInfo": null,
+                "CoverageType": ""
+              },
+              {
+                "CoverageCd": "MEDEX",
+                "CoverageDesc": "Medical Expense",
+                "Limit": [
+                  {
+                    "FormatCurrencyAmt": {
+                      "Amt": "5000"
+                    },
+                    "LimitAppliesToCd": "",
+                    "ValuationCd": null
+                  }
+                ],
+                "Deductible": [],
+                "CommlCoverageSupplement": {
+                  "CoverageSubCd": null,
+                  "CoinsurancePct": null,
+                  "ClaimMadeInfo": {
+                    "UnlimitedPriorActsCoverageInd": false,
+                    "CurrentRetroactiveDt": "0001-01-01T00:00:00",
+                    "RetroactiveCoverageInd": false
+                  }
+                },
+                "CurrentTermAmt": {
+                  "Amt": ""
+                },
+                "Option": [],
+                "CreditOrSurcharge": {
+                  "CreditSurchargeCd": null,
+                  "NumericValue": {
+                    "FormatModFactor": 0
+                  }
+                },
+                "Rate": "",
+                "MinPremAmt": {
+                  "Amt": 0
+                },
+                "AddlCoverage": null,
+                "CreditOrSurchargeInfo": null,
+                "CoverageType": ""
+              },
+              {
+                "CoverageCd": "PROF",
+                "CoverageDesc": "Professional Incidents Limit",
+                "Limit": [
+                  {
+                    "FormatCurrencyAmt": {
+                      "Amt": "Not Covered"
+                    },
+                    "LimitAppliesToCd": "Excl",
+                    "ValuationCd": null
+                  }
+                ],
+                "Deductible": [],
+                "CommlCoverageSupplement": {
+                  "CoverageSubCd": null,
+                  "CoinsurancePct": null,
+                  "ClaimMadeInfo": {
+                    "UnlimitedPriorActsCoverageInd": false,
+                    "CurrentRetroactiveDt": "0001-01-01T00:00:00",
+                    "RetroactiveCoverageInd": false
+                  }
+                },
+                "CurrentTermAmt": {
+                  "Amt": ""
+                },
+                "Option": [],
+                "CreditOrSurcharge": {
+                  "CreditSurchargeCd": null,
+                  "NumericValue": {
+                    "FormatModFactor": 0
+                  }
+                },
+                "Rate": "",
+                "MinPremAmt": {
+                  "Amt": 0
+                },
+                "AddlCoverage": null,
+                "CreditOrSurchargeInfo": null,
+                "CoverageType": ""
+              },
+              {
+                "CoverageCd": "FIRDM",
+                "CoverageDesc": "Fire Damage/Rented To You",
+                "Limit": [
+                  {
+                    "FormatCurrencyAmt": {
+                      "Amt": "100000"
+                    },
+                    "LimitAppliesToCd": "",
+                    "ValuationCd": null
+                  }
+                ],
+                "Deductible": [],
+                "CommlCoverageSupplement": {
+                  "CoverageSubCd": null,
+                  "CoinsurancePct": null,
+                  "ClaimMadeInfo": {
+                    "UnlimitedPriorActsCoverageInd": false,
+                    "CurrentRetroactiveDt": "0001-01-01T00:00:00",
+                    "RetroactiveCoverageInd": false
+                  }
+                },
+                "CurrentTermAmt": {
+                  "Amt": ""
+                },
+                "Option": [],
+                "CreditOrSurcharge": {
+                  "CreditSurchargeCd": null,
+                  "NumericValue": {
+                    "FormatModFactor": 0
+                  }
+                },
+                "Rate": "",
+                "MinPremAmt": {
+                  "Amt": 0
+                },
+                "AddlCoverage": null,
+                "CreditOrSurchargeInfo": null,
+                "CoverageType": ""
+              }
+            ],
+            "GeneralLiabilityClassification": [
+              {
+                "Coverage": [
+                  {
+                    "CoverageCd": "PREM",
+                    "CoverageDesc": "",
+                    "Limit": [],
+                    "Deductible": [],
+                    "CommlCoverageSupplement": {
+                      "CoverageSubCd": null,
+                      "CoinsurancePct": null,
+                      "ClaimMadeInfo": {
+                        "UnlimitedPriorActsCoverageInd": false,
+                        "CurrentRetroactiveDt": "0001-01-01T00:00:00",
+                        "RetroactiveCoverageInd": false
+                      }
+                    },
+                    "CurrentTermAmt": {
+                      "Amt": "2163"
+                    },
+                    "Option": [
+                      {
+                        "OptionTypeCd": "BaseRate",
+                        "OptionValue": "23.9",
+                        "OptionValueDesc": "",
+                        "LocationNo": "",
+                        "BuildingNo": "",
+                        "OptionGroup": "",
+                        "OptionLimit": "",
+                        "OptionPremium": "",
+                        "NetChangePremium": ""
+                      },
+                      {
+                        "OptionTypeCd": "ILF",
+                        "OptionValue": "1.71",
+                        "OptionValueDesc": "",
+                        "LocationNo": "",
+                        "BuildingNo": "",
+                        "OptionGroup": "",
+                        "OptionLimit": "",
+                        "OptionPremium": "",
+                        "NetChangePremium": ""
+                      },
+                      {
+                        "OptionTypeCd": "LCM",
+                        "OptionValue": "",
+                        "OptionValueDesc": "",
+                        "LocationNo": "",
+                        "BuildingNo": "",
+                        "OptionGroup": "",
+                        "OptionLimit": "",
+                        "OptionPremium": "",
+                        "NetChangePremium": ""
+                      }
+                    ],
+                    "CreditOrSurcharge": {
+                      "CreditSurchargeCd": null,
+                      "NumericValue": {
+                        "FormatModFactor": 0
+                      }
+                    },
+                    "Rate": "108.139",
+                    "MinPremAmt": {
+                      "Amt": 0
+                    },
+                    "AddlCoverage": null,
+                    "CreditOrSurchargeInfo": null,
+                    "CoverageType": ""
+                  },
+                  {
+                    "CoverageCd": "PRDCO",
+                    "CoverageDesc": "",
+                    "Limit": [],
+                    "Deductible": [],
+                    "CommlCoverageSupplement": {
+                      "CoverageSubCd": null,
+                      "CoinsurancePct": null,
+                      "ClaimMadeInfo": {
+                        "UnlimitedPriorActsCoverageInd": false,
+                        "CurrentRetroactiveDt": "0001-01-01T00:00:00",
+                        "RetroactiveCoverageInd": false
+                      }
+                    },
+                    "CurrentTermAmt": {
+                      "Amt": "0"
+                    },
+                    "Option": [
+                      {
+                        "OptionTypeCd": "BaseRate",
+                        "OptionValue": "0",
+                        "OptionValueDesc": "",
+                        "LocationNo": "",
+                        "BuildingNo": "",
+                        "OptionGroup": "",
+                        "OptionLimit": "",
+                        "OptionPremium": "",
+                        "NetChangePremium": ""
+                      },
+                      {
+                        "OptionTypeCd": "ILF",
+                        "OptionValue": "0",
+                        "OptionValueDesc": "",
+                        "LocationNo": "",
+                        "BuildingNo": "",
+                        "OptionGroup": "",
+                        "OptionLimit": "",
+                        "OptionPremium": "",
+                        "NetChangePremium": ""
+                      },
+                      {
+                        "OptionTypeCd": "LCM",
+                        "OptionValue": "",
+                        "OptionValueDesc": "",
+                        "LocationNo": "",
+                        "BuildingNo": "",
+                        "OptionGroup": "",
+                        "OptionLimit": "",
+                        "OptionPremium": "",
+                        "NetChangePremium": ""
+                      }
+                    ],
+                    "CreditOrSurcharge": {
+                      "CreditSurchargeCd": null,
+                      "NumericValue": {
+                        "FormatModFactor": 0
+                      }
+                    },
+                    "Rate": "0",
+                    "MinPremAmt": {
+                      "Amt": 0
+                    },
+                    "AddlCoverage": null,
+                    "CreditOrSurchargeInfo": null,
+                    "CoverageType": ""
+                  }
+                ],
+                "ClassCd": "60010",
+                "ClassCdDesc": "Apartment Buildings *",
+                "IRH_SubClassCd": "",
+                "IRH_SubClassCdDesc": "",
+                "IRH_DaggerClass": "No",
+                "Exposure": 20,
+                "NumEmployeesPartTime": 0,
+                "NumEmployeesFullTime": 0,
+                "comIRH_IsCalculateStatePayroll": false,
+                "IRH_PayrollType": null,
+                "comIRH_NoOfOwners": 0,
+                "comIRH_PayrollPercentage": 0,
+                "comIRH_EmployeePayroll": 0,
+                "PremiumBasisCd": "Unit",
+                "PremiumBasisDesc": "Unit (Each Unit)",
+                "IfAnyRatingBasisInd": "false",
+                "PremiumAmt": {
+                  "Amt": 2163
+                },
+                "IRH_FinalRate": 0,
+                "IRH_RatedPremium": 2163,
+                "MinPremInd": "No",
+                "MinPremAmt": {
+                  "Amt": 0
+                },
+                "RiskAppetiteCd": "A",
+                "CreditOrSurcharge": 1,
+                "LocationRef": "1",
+                "IRH_IsMaxRevenueGoverningClass": false,
+                "VacancyDt": ""
+              },
+              {
+                "Coverage": [
+                  {
+                    "CoverageCd": "PREM",
+                    "CoverageDesc": "",
+                    "Limit": [],
+                    "Deductible": [],
+                    "CommlCoverageSupplement": {
+                      "CoverageSubCd": null,
+                      "CoinsurancePct": null,
+                      "ClaimMadeInfo": {
+                        "UnlimitedPriorActsCoverageInd": false,
+                        "CurrentRetroactiveDt": "0001-01-01T00:00:00",
+                        "RetroactiveCoverageInd": false
+                      }
+                    },
+                    "CurrentTermAmt": {
+                      "Amt": "1424"
+                    },
+                    "Option": [
+                      {
+                        "OptionTypeCd": "BaseRate",
+                        "OptionValue": "4.91",
+                        "OptionValueDesc": "",
+                        "LocationNo": "",
+                        "BuildingNo": "",
+                        "OptionGroup": "",
+                        "OptionLimit": "",
+                        "OptionPremium": "",
+                        "NetChangePremium": ""
+                      },
+                      {
+                        "OptionTypeCd": "ILF",
+                        "OptionValue": "2.07",
+                        "OptionValueDesc": "",
+                        "LocationNo": "",
+                        "BuildingNo": "",
+                        "OptionGroup": "",
+                        "OptionLimit": "",
+                        "OptionPremium": "",
+                        "NetChangePremium": ""
+                      },
+                      {
+                        "OptionTypeCd": "LCM",
+                        "OptionValue": "",
+                        "OptionValueDesc": "",
+                        "LocationNo": "",
+                        "BuildingNo": "",
+                        "OptionGroup": "",
+                        "OptionLimit": "",
+                        "OptionPremium": "",
+                        "NetChangePremium": ""
+                      }
+                    ],
+                    "CreditOrSurcharge": {
+                      "CreditSurchargeCd": null,
+                      "NumericValue": {
+                        "FormatModFactor": 0
+                      }
+                    },
+                    "Rate": "28.489",
+                    "MinPremAmt": {
+                      "Amt": 0
+                    },
+                    "AddlCoverage": null,
+                    "CreditOrSurchargeInfo": null,
+                    "CoverageType": ""
+                  },
+                  {
+                    "CoverageCd": "PRDCO",
+                    "CoverageDesc": "",
+                    "Limit": [],
+                    "Deductible": [],
+                    "CommlCoverageSupplement": {
+                      "CoverageSubCd": null,
+                      "CoinsurancePct": null,
+                      "ClaimMadeInfo": {
+                        "UnlimitedPriorActsCoverageInd": false,
+                        "CurrentRetroactiveDt": "0001-01-01T00:00:00",
+                        "RetroactiveCoverageInd": false
+                      }
+                    },
+                    "CurrentTermAmt": {
+                      "Amt": "829"
+                    },
+                    "Option": [
+                      {
+                        "OptionTypeCd": "BaseRate",
+                        "OptionValue": "3.54",
+                        "OptionValueDesc": "",
+                        "LocationNo": "",
+                        "BuildingNo": "",
+                        "OptionGroup": "",
+                        "OptionLimit": "",
+                        "OptionPremium": "",
+                        "NetChangePremium": ""
+                      },
+                      {
+                        "OptionTypeCd": "ILF",
+                        "OptionValue": "1.67",
+                        "OptionValueDesc": "",
+                        "LocationNo": "",
+                        "BuildingNo": "",
+                        "OptionGroup": "",
+                        "OptionLimit": "",
+                        "OptionPremium": "",
+                        "NetChangePremium": ""
+                      },
+                      {
+                        "OptionTypeCd": "LCM",
+                        "OptionValue": "",
+                        "OptionValueDesc": "",
+                        "LocationNo": "",
+                        "BuildingNo": "",
+                        "OptionGroup": "",
+                        "OptionLimit": "",
+                        "OptionPremium": "",
+                        "NetChangePremium": ""
+                      }
+                    ],
+                    "CreditOrSurcharge": {
+                      "CreditSurchargeCd": null,
+                      "NumericValue": {
+                        "FormatModFactor": 0
+                      }
+                    },
+                    "Rate": "16.571",
+                    "MinPremAmt": {
+                      "Amt": 0
+                    },
+                    "AddlCoverage": null,
+                    "CreditOrSurchargeInfo": null,
+                    "CoverageType": ""
+                  }
+                ],
+                "ClassCd": "91342",
+                "ClassCdDesc": "Carpentry-NOC",
+                "IRH_SubClassCd": "",
+                "IRH_SubClassCdDesc": "",
+                "IRH_DaggerClass": "No",
+                "Exposure": 50000,
+                "NumEmployeesPartTime": 0,
+                "NumEmployeesFullTime": 0,
+                "comIRH_IsCalculateStatePayroll": false,
+                "IRH_PayrollType": null,
+                "comIRH_NoOfOwners": 0,
+                "comIRH_PayrollPercentage": 0,
+                "comIRH_EmployeePayroll": 0,
+                "PremiumBasisCd": "PAYRL",
+                "PremiumBasisDesc": "Payroll (Per $ 1000 Payroll)",
+                "IfAnyRatingBasisInd": "false",
+                "PremiumAmt": {
+                  "Amt": 2253
+                },
+                "IRH_FinalRate": 0,
+                "IRH_RatedPremium": 2253,
+                "MinPremInd": "No",
+                "MinPremAmt": {
+                  "Amt": 0
+                },
+                "RiskAppetiteCd": "A",
+                "CreditOrSurcharge": 1,
+                "LocationRef": "1",
+                "IRH_IsMaxRevenueGoverningClass": false,
+                "VacancyDt": ""
+              }
+            ],
+            "GLCarrierSpecified": {
+              "IsOwnSecurityProvided": "false",
+              "IsSnowShovelingContractedOut": "false",
+              "IsAssaultAndBatteryExclusion": "true",
+              "IsTotalFirearmExclusion": "true"
+            }
+          },
+          "Deductible": [
+            {
+              "FormatInteger": 500,
+              "FormatPct": 0,
+              "DeductibleTypeCd": "CL",
+              "DeductibleAppliesToCd": "BIPD"
+            }
+          ],
+          "OptionalCoverageList": {
+            "CoverageDetail": []
+          },
+          "AdditionalInsuredList": {
+            "CoverageDetail": []
+          },
+          "CreditOrSurcharge": 1,
+          "PercentageOfWorkSubbed": null,
+          "GrossSalesOfWorkSubbed": null,
+          "NoOfExecutiveOfficers": null,
+          "AdditionalCoveragesDescription": null
+        },
+        "CommlPropertyLineBusiness": {
+          "CurrentTermAmt": {
+            "Amt": "0"
+          },
+          "IRH_RatedPremium": 0,
+          "MinPremInd": "No",
+          "MinPremAmt": {
+            "Amt": 0
+          },
+          "PropertyInfo": {
+            "CreditOrSurcharge": 0,
+            "CommlPropertyInfo": [
+              {
+                "ClassCd": "0311",
+                "ClassCdDesc": "Apartments w/o Mercantile Occupancies - Up to 10 Units",
+                "comIRH_CSPCdExt": null,
+                "Coverage": [
+                  {
+                    "CoverageCd": "BLDG",
+                    "CoverageDesc": "Building",
+                    "Limit": [
+                      {
+                        "FormatCurrencyAmt": {
+                          "Amt": "485000"
+                        },
+                        "LimitAppliesToCd": "",
+                        "ValuationCd": "ACV"
+                      }
+                    ],
+                    "Deductible": [
+                      {
+                        "FormatInteger": 2500,
+                        "FormatPct": 0,
+                        "DeductibleTypeCd": "",
+                        "DeductibleAppliesToCd": "AllPeril"
+                      },
+                      {
+                        "FormatInteger": 0,
+                        "FormatPct": 2,
+                        "DeductibleTypeCd": "",
+                        "DeductibleAppliesToCd": "Wind"
+                      }
+                    ],
+                    "CommlCoverageSupplement": {
+                      "CoverageSubCd": "BASIC",
+                      "CoinsurancePct": "80",
+                      "ClaimMadeInfo": {
+                        "UnlimitedPriorActsCoverageInd": false,
+                        "CurrentRetroactiveDt": "0001-01-01T00:00:00",
+                        "RetroactiveCoverageInd": false
+                      }
+                    },
+                    "CurrentTermAmt": {
+                      "Amt": ""
+                    },
+                    "Option": [
+                      {
+                        "OptionTypeCd": "Wind",
+                        "OptionValue": "Incl",
+                        "OptionValueDesc": "",
+                        "LocationNo": "",
+                        "BuildingNo": "",
+                        "OptionGroup": "",
+                        "OptionLimit": "",
+                        "OptionPremium": "",
+                        "NetChangePremium": ""
+                      }
+                    ],
+                    "CreditOrSurcharge": {
+                      "CreditSurchargeCd": null,
+                      "NumericValue": {
+                        "FormatModFactor": 0
+                      }
+                    },
+                    "Rate": "",
+                    "MinPremAmt": {
+                      "Amt": 0
+                    },
+                    "AddlCoverage": [],
+                    "CreditOrSurchargeInfo": [],
+                    "CoverageType": ""
+                  },
+                  {
+                    "CoverageCd": "BPP",
+                    "CoverageDesc": "Business Personal Property",
+                    "Limit": [
+                      {
+                        "FormatCurrencyAmt": {
+                          "Amt": "175000"
+                        },
+                        "LimitAppliesToCd": "",
+                        "ValuationCd": "ACV"
+                      }
+                    ],
+                    "Deductible": [
+                      {
+                        "FormatInteger": 2500,
+                        "FormatPct": 0,
+                        "DeductibleTypeCd": "",
+                        "DeductibleAppliesToCd": "AllPeril"
+                      },
+                      {
+                        "FormatInteger": 0,
+                        "FormatPct": 2,
+                        "DeductibleTypeCd": "",
+                        "DeductibleAppliesToCd": "Wind"
+                      }
+                    ],
+                    "CommlCoverageSupplement": {
+                      "CoverageSubCd": "BASIC",
+                      "CoinsurancePct": "80",
+                      "ClaimMadeInfo": {
+                        "UnlimitedPriorActsCoverageInd": false,
+                        "CurrentRetroactiveDt": "0001-01-01T00:00:00",
+                        "RetroactiveCoverageInd": false
+                      }
+                    },
+                    "CurrentTermAmt": {
+                      "Amt": ""
+                    },
+                    "Option": [
+                      {
+                        "OptionTypeCd": "Wind",
+                        "OptionValue": "Incl",
+                        "OptionValueDesc": "",
+                        "LocationNo": "",
+                        "BuildingNo": "",
+                        "OptionGroup": "",
+                        "OptionLimit": "",
+                        "OptionPremium": "",
+                        "NetChangePremium": ""
+                      }
+                    ],
+                    "CreditOrSurcharge": {
+                      "CreditSurchargeCd": null,
+                      "NumericValue": {
+                        "FormatModFactor": 0
+                      }
+                    },
+                    "Rate": "",
+                    "MinPremAmt": {
+                      "Amt": 0
+                    },
+                    "AddlCoverage": [],
+                    "CreditOrSurchargeInfo": [],
+                    "CoverageType": ""
+                  }
+                ],
+                "Rate": 0,
+                "CurrentTermAmt": {
+                  "Amt": ""
+                },
+                "IRH_RatedPremium": 0,
+                "LocationRef": 1,
+                "SubLocationRef": 1,
+                "PropCarrierSpecified": {
+                  "SquareFootagePercentageOccupiedByInsured": "0",
+                  "IsOwnedByInsured": "true",
+                  "RoofShapeType": "",
+                  "RoofConstructionType": "",
+                  "IsHistoricalRegistry": "false",
+                  "IsTemporaryOrIncidental": "false",
+                  "IsPlumbingTypeInListOfIneligibleTypes": "false",
+                  "IsHeatingTypeInListOfIneligibleTypes": "false",
+                  "IsWiringTypeInListOfIneligibleTypes": "false",
+                  "IsElectricCircuitBreakerProtection": "false",
+                  "IsOperatingBusinessOpenPastMidnight": "false",
+                  "NumberOfUnitsOccupyTenant": "0",
+                  "PercentageOccupiedByInsured": "0.00",
+                  "PercentageVacantByInsured": ""
+                },
+                "RiskAppetiteCd": null
+              }
+            ],
+            "PropCarrierSpecifiedPolicyInfo": {
+              "AccountsReceivableLimitAmount": "10000",
+              "WaterSewageBackupLimitAmount": "10000",
+              "FireDepartmentServiceChargeLimitAmount": "5000",
+              "FireProtectionDeviceRechargeLimitAmount": "2500",
+              "ValuablePapersAndRecordsLimitAmount": "10000",
+              "PolicyLevelOptionalCoveragePremiumTotal": ""
+            }
+          }
+        },
+        "CyberLiabilityLineBusiness": null,
+        "CommlUmbrellaLineBusiness": null,
+        "EPLILineBusiness": null,
+        "JurisdictionTaxFee": {
+          "JurisdictionTaxFeeInfo": {
+            "TaxFee": []
+          }
+        },
+        "CompanyReferenceNumber": "",
+        "BrokerageCommissionInfo": {
+          "CommissionRatePct": 0,
+          "CommissionAmt": 0
+        },
+        "HomeownerLineBusiness": null,
+        "BindRiskInformation": null,
+        "ExcessFloodLineBusiness": null,
+        "WorkCompLineBusiness": null,
+        "DirectorsAndOfficersLineBusiness": null,
+        "FiduciaryLiabilityLineBusiness": null,
+        "CrimeLineBusiness": null,
+        "EPLLineBusiness": null,
+        "AdditionalQuestionList": {
+          "QuestionDetails": []
+        },
+        "KettleReAggLimitBreached": null,
+        "PriorLoss": {
+          "LossYearInfo": [],
+          "PriorLossHistoryInfo": []
+        },
+        "KidnapAndRansomLineBusiness": null,
+        "DeductibelbuyBackLineBusiness": null,
+        "ExcessAutoLiabilityBusiness": null,
+        "OtherOrPriorPolicy": null,
+        "TerrorismLineBusiness": null,
+        "MotorTruckCargoLineBusiness": null,
+        "AlliedHealthFacilitiesLineBusiness": null,
+        "PriorLossInfo": {
+          "LossTypeCd": "",
+          "LossDescription": "",
+          "IsClaimSettled": false,
+          "IsClaimFullyRepaired": false,
+          "LossDate": "",
+          "LossValue": 0,
+          "IsClaimAtThisLocation": false,
+          "LossTypeOther": "",
+          "IsCatLoss": "",
+          "IsChargeable": null,
+          "LOBCd": "",
+          "ClaimStatus": "",
+          "ClaimDate": ""
+        },
+        "PremiumDistributionList": {
+          "PremiumDistribution": []
+        },
+        "FloodLineBusiness": null,
+        "PriorCarrierInfo": {
+          "PriorCarrierDetail": []
+        }
+      },
+      "CyberLiabilityPolicyQuoteInqRs": null,
+      "CommlUmbrellaPolicyQuoteInqRs": null,
+      "DocumentPolicyQuoteInqRs": null,
+      "HomeownerPolicyQuoteInqRs": null,
+      "BindQuoteInqRs": null,
+      "CancelQuoteRs": null,
+      "ReinstateQuoteInqRs": null,
+      "RevokeQuoteInqRs": null,
+      "ExcessFloodPolicyQuoteInqRs": null,
+      "WorkCompPolicyQuoteInqRs": null,
+      "DocumentTypePolicyQuoteInqRs": null,
+      "ProfessionalLiabilityPolicyQuoteInqRs": null,
+      "OptionalAdditionalCoverageInqRs": null,
+      "CommlDeductibelbuyBackQuoteInqRs": null,
+      "ExcessAutoLiabilityQuoteInqRs": null,
+      "ReviveQuoteInqRs": null,
+      "CommlTerrorismQuoteInqRs": null,
+      "MotorTruckCargoQuoteInqRs": null,
+      "EligibilityRs": null,
+      "AlliedHealthFacilitiesPolicyQuoteInqRs": null,
+      "FloodPolicyQuoteInqRs": null
+    }
+  }
+]

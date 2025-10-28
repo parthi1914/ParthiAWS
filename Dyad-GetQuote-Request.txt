@@ -1,0 +1,718 @@
+{
+  "SignonRq": {
+    "SignonPswd": {
+      "CustId": {
+        "CustLoginId": "SLBGROUP"
+      },
+      "CustPswd": {
+        "Pswd": null
+      }
+    }
+  },
+  "InsuranceSvcRq": {
+    "RqUID": "{{guid}}",
+    "IRH_QuoteNo": "Your System Quote #",
+    "IRH_Application_Name": "Your Application Name",
+    "IRH_Application_Type": "QRB",
+    "IRH_Request_Type": "QUOTE",
+    "comIRH_CarrierRequestExt": {
+      "comIRH_CarrierInfoExt": [
+        {
+          "IRH_CarrierName": "ACI",
+          "IRH_ReRateRqUID": "",
+          "IRH_AdmittedStatus": "N",
+          "IRH_TimeTaken": null,
+          "IRH_OfficeCd": ""
+        },
+        {
+          "IRH_CarrierName": "USLI",
+          "IRH_ReRateRqUID": "",
+          "IRH_AdmittedStatus": "N",
+          "IRH_TimeTaken": null,
+          "IRH_OfficeCd": ""
+        }
+      ]
+    },
+    "comIRH_AdditionalQueRequireExt": null,
+    "comIRH_AdditionalQueTypeExt": null,
+    "CommlPkgPolicyQuoteInqRq": {
+      "FormsRequestedCd": "BOTH",
+      "SaveIndicationCd": "Yes",
+      "Producer": [
+        {
+          "GeneralPartyInfo": {
+            "NameInfo": {
+              "CommlName": {
+                "CommercialName": "Sara Baker"
+              },
+              "PersonName": {
+                "Surname": "",
+                "GivenName": "",
+                "MiddleName": ""
+              },
+              "SupplementaryNameInfo": {
+                "SupplementaryName": "",
+                "SupplementaryNameCd": ""
+              },
+              "IRH_ReferenceInsuredID": "",
+              "LegalEntityCd": null
+            },
+            "Communications": {
+              "EmailInfo": {
+                "CommunicationUseCd": "",
+                "EmailAddr": "test@gmail.com"
+              },
+              "WebsiteInfo": {
+                "WebsiteURL": "",
+                "IRH_Insured_WebsiteURL": null
+              },
+              "PhoneInfo": {
+                "PhoneNumber": "501-227-9670",
+                "Fax": "(501) 227-8105"
+              }
+            },
+            "Addr": {
+              "Addr1": "11101 Anderson Dr",
+              "Addr2": "",
+              "City": "Little Rock",
+              "StateProvCd": "AR",
+              "PostalCode": "72212",
+              "Latitude": null,
+              "Longitude": null,
+              "County": "",
+              "TerritoryCd": "",
+              "HouseNumber": null,
+              "StreetNumber": ""
+            },
+            "PhysicalAddr": null,
+            "PersonInfo": {
+              "BirthDt": "0001-01-01T00:00:00Z",
+              "OccupationClassCd": "",
+              "TaxIdentity": []
+            },
+            "OperationsDesc": ""
+          },
+          "ProducerInfo": {
+            "ProducerRoleCd": "LoggedInUser",
+            "ContractNumber": ""
+          }
+        },
+        {
+          "GeneralPartyInfo": {
+            "NameInfo": {
+              "CommlName": {
+                "CommercialName": "Sara Baker"
+              },
+              "PersonName": {
+                "Surname": "",
+                "GivenName": "",
+                "MiddleName": ""
+              },
+              "SupplementaryNameInfo": {
+                "SupplementaryName": "",
+                "SupplementaryNameCd": ""
+              },
+              "IRH_ReferenceInsuredID": "",
+              "LegalEntityCd": null
+            },
+            "Communications": {
+              "EmailInfo": {
+                "CommunicationUseCd": "",
+                "EmailAddr": "test@gmail.com"
+              },
+              "WebsiteInfo": {
+                "WebsiteURL": "",
+                "IRH_Insured_WebsiteURL": null
+              },
+              "PhoneInfo": {
+                "PhoneNumber": "501-227-9670",
+                "Fax": "(501) 227-8105"
+              }
+            },
+            "Addr": {
+              "Addr1": "11101 Anderson Dr",
+              "Addr2": "",
+              "City": "Little Rock",
+              "StateProvCd": "AR",
+              "PostalCode": "72212",
+              "Latitude": null,
+              "Longitude": null,
+              "County": "",
+              "TerritoryCd": "",
+              "HouseNumber": null,
+              "StreetNumber": ""
+            },
+            "PhysicalAddr": null,
+            "PersonInfo": {
+              "BirthDt": "0001-01-01T00:00:00Z",
+              "OccupationClassCd": "",
+              "TaxIdentity": []
+            },
+            "OperationsDesc": ""
+          },
+          "ProducerInfo": {
+            "ProducerRoleCd": "UN",
+            "ContractNumber": ""
+          }
+        }
+      ],
+      "InsuredOrPrincipal": {
+        "GeneralPartyInfo": {
+          "NameInfo": {
+            "CommlName": {
+              "CommercialName": "John Doe"
+            },
+            "PersonName": {
+              "Surname": "Doe",
+              "GivenName": "John",
+              "MiddleName": ""
+            },
+            "SupplementaryNameInfo": {
+              "SupplementaryName": "",
+              "SupplementaryNameCd": ""
+            },
+            "IRH_ReferenceInsuredID": "",
+            "LegalEntityCd": null
+          },
+          "Communications": {
+            "EmailInfo": {
+              "CommunicationUseCd": "",
+              "EmailAddr": ""
+            },
+            "WebsiteInfo": {
+              "WebsiteURL": "",
+              "IRH_Insured_WebsiteURL": null
+            },
+            "PhoneInfo": {
+              "PhoneNumber": "",
+              "Fax": ""
+            }
+          },
+          "Addr": {
+            "Addr1": "18077 River Rd",
+            "Addr2": "",
+            "City": "Noblesville",
+            "StateProvCd": "IN",
+            "PostalCode": "46062",
+            "Latitude": null,
+            "Longitude": null,
+            "County": "Hamilton",
+            "TerritoryCd": "503",
+            "HouseNumber": null,
+            "StreetNumber": ""
+          },
+          "PhysicalAddr": {
+            "Addr1": "18077 River Rd",
+            "Addr2": "",
+            "City": "Noblesville",
+            "StateProvCd": "IN",
+            "PostalCode": "46062",
+            "Latitude": null,
+            "Longitude": null,
+            "County": "Hamilton",
+            "TerritoryCd": "503",
+            "HouseNumber": null,
+            "StreetNumber": ""
+          },
+          "PersonInfo": {
+            "BirthDt": "0001-01-01T00:00:00Z",
+            "OccupationClassCd": "",
+            "TaxIdentity": []
+          },
+          "OperationsDesc": ""
+        },
+        "InsuredOrPrincipalInfo": {
+          "InsuredOrPrincipalRoleCd": "Insured"
+        }
+      },
+      "Policy": {
+        "PolicyNumber": "",
+        "LOBCd": "CPKGE",
+        "NAICCd": "",
+        "ContractTerm": {
+          "EffectiveDt": "2025-09-15T00:00:00Z",
+          "ExpirationDt": "2026-09-15T00:00:00Z",
+          "OriginalPolicyInceptionDt": "0001-01-01T00:00:00Z"
+        },
+        "Form": [],
+        "IRH_LossFreeYears": null,
+        "IRH_YrsInBus": null,
+        "NumYrsInBusiness": null
+      },
+      "BusinessPurposeTypeCd": "NBS",
+      "TransactionRequestDt": "2025-09-15T00:00:00Z",
+      "comIRH_GoverningStateExt": "IN",
+      "Location": [
+        {
+          "Addr": {
+            "Addr1": "18077 River Rd",
+            "Addr2": "",
+            "City": "Noblesville",
+            "StateProvCd": "IN",
+            "PostalCode": "46062",
+            "Latitude": null,
+            "Longitude": null,
+            "County": "Hamilton",
+            "TerritoryCd": "503",
+            "HouseNumber": null,
+            "StreetNumber": "509"
+          },
+          "SubLocation": [
+            {
+              "Addr": {
+                "Addr1": "18077 River Rd",
+                "Addr2": "",
+                "City": "Noblesville",
+                "StateProvCd": "IN",
+                "PostalCode": "46062",
+                "Latitude": null,
+                "Longitude": null,
+                "County": "Hamilton",
+                "TerritoryCd": "503",
+                "HouseNumber": null,
+                "StreetNumber": "509"
+              },
+              "id": 1
+            }
+          ],
+          "id": 1,
+          "CrimeScore": ""
+        }
+      ],
+      "LocationUWInfo": [
+        {
+          "Construction": {
+            "ConstructionCd": "JM",
+            "YearBuilt": "1983",
+            "BldgArea": {
+              "NumUnits": 1700,
+              "UnitMeasurementCd": "",
+              "RangeValue": ""
+            },
+            "NumStories": "1",
+            "RoofingMaterial": {
+              "RoofMaterialCd": ""
+            },
+            "RoofGeometryTypeCd": "",
+            "CladdingTypeCd": "",
+            "ConstructionQualityCd": "",
+            "FrameFoundationConnectionCd": "",
+            "RoofWallAttachmentCd": "",
+            "RoofDeckMaterialCd": "",
+            "RoofEquipmentHurricaneCd": "",
+            "WindOpeningProtectionCd": ""
+          },
+          "BldgProtection": {
+            "DistanceToFireStation": "",
+            "DistanceToHydrant": "",
+            "ProtectionDeviceBurglarCd": "",
+            "ProtectionDeviceFireCd": "",
+            "ProtectionClassGradeCd": "7",
+            "ProtectionDeviceSprinklerCd": "NO",
+            "SprinkleredPct": "",
+            "ElectricalProtectionCd": "",
+            "ProtectionDeviceMotionDetectorCd": "",
+            "ProtectionDeviceSmokeCd": "",
+            "DoorLockCd": "",
+            "ProtectionDeviceBurglarLevel": "",
+            "IsStormShutters": "false",
+            "IsSmokeDetectors": "false",
+            "IsAnsulSystem": "false"
+          },
+          "BldgImprovements": {
+            "HeatingImprovementYear": "2017",
+            "comIRH_PlumbingTypeCdExt": "",
+            "PlumbingImprovementYear": "1983",
+            "RoofingImprovementYear": "2013",
+            "WiringImprovementYear": "1983",
+            "comIRH_WiringYearExt": "",
+            "comIRH_HeatingTypeCdExt": "",
+            "comIRH_WiringTypeCdExt": "",
+            "comIRH_RoofingTypeCdExt": ""
+          },
+          "BldgOccupancy": {
+            "OccupancyTypeCd": "",
+            "OccupancyDesc": ""
+          },
+          "AlarmAndSecurity": [],
+          "TerritoryCd": "503",
+          "DistanceToOceanOrOtherBodyWater": {
+            "NumUnits": 0,
+            "UnitMeasurementCd": "",
+            "RangeValue": ""
+          },
+          "LocationRef": 1,
+          "SubLocationRef": 1,
+          "RoofType": "",
+          "SquareFootage": "",
+          "CoverageTotalInsuredValue": "",
+          "TotalNoOfLoss": "",
+          "Exclusions": {
+            "IsVandalismExclusion": "false",
+            "IsSprinklerLeakageExclusion": "false",
+            "IsSinkholeExclusion": "false",
+            "IsWaterDamageExclusion": "false",
+            "WaterDamageSublimitAmount": "",
+            "RoofExclusion": "false"
+          }
+        }
+      ],
+      "GeneralLiabilityLineBusiness": {
+        "CurrentTermAmt": {
+          "Amt": ""
+        },
+        "IRH_RatedPremium": 0,
+        "MinPremInd": "No",
+        "MinPremAmt": {
+          "Amt": 0
+        },
+        "LiabilityInfo": {
+          "Coverage": [
+            {
+              "CoverageCd": "GENAG",
+              "CoverageDesc": "General Aggregate Limit",
+              "Limit": [
+                {
+                  "FormatCurrencyAmt": {
+                    "Amt": "2000000"
+                  },
+                  "LimitAppliesToCd": "Aggregate",
+                  "ValuationCd": null
+                }
+              ]
+            },
+            {
+              "CoverageCd": "EAOCC",
+              "CoverageDesc": "Each Occurrence Limit",
+              "Limit": [
+                {
+                  "FormatCurrencyAmt": {
+                    "Amt": "1000000"
+                  },
+                  "LimitAppliesToCd": "PerOcc",
+                  "ValuationCd": null
+                }
+              ]
+            },
+            {
+              "CoverageCd": "PRDCO",
+              "CoverageDesc": "Products &amp; Completed Operation Aggregate Limit",
+              "Limit": [
+                {
+                  "FormatCurrencyAmt": {
+                    "Amt": "2000000"
+                  },
+                  "LimitAppliesToCd": "PerOcc",
+                  "ValuationCd": null
+                }
+              ]
+            },
+            {
+              "CoverageCd": "PIADV",
+              "CoverageDesc": "Personal &amp; Advertising Injury Limit",
+              "Limit": [
+                {
+                  "FormatCurrencyAmt": {
+                    "Amt": "1000000"
+                  },
+                  "LimitAppliesToCd": "",
+                  "ValuationCd": null
+                }
+              ]
+            },
+            {
+              "CoverageCd": "MEDEX",
+              "CoverageDesc": "Medical Expense Limit",
+              "Limit": [
+                {
+                  "FormatCurrencyAmt": {
+                    "Amt": "5000"
+                  },
+                  "LimitAppliesToCd": "",
+                  "ValuationCd": null
+                }
+              ]
+            },
+            {
+              "CoverageCd": "PROF",
+              "CoverageDesc": "Professional Incidents Limit",
+              "Limit": [
+                {
+                  "FormatCurrencyAmt": {
+                    "Amt": "Not Covered"
+                  },
+                  "LimitAppliesToCd": "Excl",
+                  "ValuationCd": null
+                }
+              ]
+            },
+            {
+              "CoverageCd": "FIRDM",
+              "CoverageDesc": "Damage To Rented Premises Limit",
+              "Limit": [
+                {
+                  "FormatCurrencyAmt": {
+                    "Amt": "100000"
+                  },
+                  "LimitAppliesToCd": "",
+                  "ValuationCd": null
+                }
+              ]
+            }
+          ],
+          "GeneralLiabilityClassification": [
+            {
+              "Coverage": [
+                {
+                  "CoverageCd": "PREM",
+                  "CoverageDesc": ""
+                },
+                {
+                  "CoverageCd": "PRDCO",
+                  "CoverageDesc": ""
+                }
+              ],
+              "ClassCd": "60010",
+              "ClassCdDesc": "Apartment Buildings",
+              "IRH_SubClassCd": "",
+              "IRH_SubClassCdDesc": "",
+              "IRH_DaggerClass": "No",
+              "Exposure": 20,
+              "NumEmployeesPartTime": 0,
+              "NumEmployeesFullTime": 0,
+              "comIRH_IsCalculateStatePayroll": false,
+              "IRH_PayrollType": null,
+              "comIRH_NoOfOwners": 0,
+              "comIRH_PayrollPercentage": 0,
+              "comIRH_EmployeePayroll": 0,
+              "PremiumBasisCd": "Unit",
+              "PremiumBasisDesc": "",
+              "IfAnyRatingBasisInd": "false",
+              "CreditOrSurcharge": 1,
+              "LocationRef": "1",
+              "IRH_IsMaxRevenueGoverningClass": false
+            },
+            {
+              "Coverage": [
+                {
+                  "CoverageCd": "PREM",
+                  "CoverageDesc": ""
+                },
+                {
+                  "CoverageCd": "PRDCO",
+                  "CoverageDesc": ""
+                }
+              ],
+              "ClassCd": "91342",
+              "ClassCdDesc": "Carpentry - Noc",
+              "IRH_SubClassCd": "",
+              "IRH_SubClassCdDesc": "",
+              "IRH_DaggerClass": "No",
+              "Exposure": 50000,
+              "NumEmployeesPartTime": 0,
+              "NumEmployeesFullTime": 0,
+              "comIRH_IsCalculateStatePayroll": false,
+              "IRH_PayrollType": null,
+              "comIRH_NoOfOwners": 0,
+              "comIRH_PayrollPercentage": 0,
+              "comIRH_EmployeePayroll": 0,
+              "PremiumBasisCd": "PAYRL",
+              "PremiumBasisDesc": "",
+              "IfAnyRatingBasisInd": "false",
+              "CreditOrSurcharge": 1,
+              "LocationRef": "1",
+              "IRH_IsMaxRevenueGoverningClass": false
+            }
+          ],
+          "GLCarrierSpecified": {
+            "IsOwnSecurityProvided": "false",
+            "IsSnowShovelingContractedOut": "false",
+            "IsAssaultAndBatteryExclusion": "true",
+            "IsTotalFirearmExclusion": "true"
+          }
+        },
+        "Deductible": [
+          {
+            "FormatInteger": 500,
+            "FormatPct": 0,
+            "DeductibleTypeCd": "CL",
+            "DeductibleAppliesToCd": "BIPD"
+          }
+        ],
+        "OptionalCoverageList": {
+          "CoverageDetail": []
+        },
+        "AdditionalInsuredList": {
+          "CoverageDetail": []
+        }
+      },
+      "CommlPropertyLineBusiness": {
+        "PropertyInfo": {
+          "CreditOrSurcharge": 0,
+          "CommlPropertyInfo": [
+            {
+              "ClassCd": "0311",
+              "ClassCdDesc": "Apartments without Mercantile Occupancies - Up to 10 Units",
+              "comIRH_CSPCdExt": null,
+              "Coverage": [
+                {
+                  "CoverageCd": "BLDG",
+                  "CoverageDesc": "Building",
+                  "Limit": [
+                    {
+                      "FormatCurrencyAmt": {
+                        "Amt": "485000"
+                      },
+                      "LimitAppliesToCd": "",
+                      "ValuationCd": "ACV"
+                    }
+                  ],
+                  "Deductible": [
+                    {
+                      "FormatInteger": 2500,
+                      "FormatPct": 0,
+                      "DeductibleTypeCd": "",
+                      "DeductibleAppliesToCd": "AllPeril"
+                    },
+                    {
+                      "FormatInteger": 0,
+                      "FormatPct": 2,
+                      "DeductibleTypeCd": "",
+                      "DeductibleAppliesToCd": "Wind"
+                    }
+                  ],
+                  "CommlCoverageSupplement": {
+                    "CoverageSubCd": "BASIC",
+                    "CoinsurancePct": "80",
+                    "ClaimMadeInfo": {
+                      "UnlimitedPriorActsCoverageInd": false,
+                      "CurrentRetroactiveDt": "0001-01-01T00:00:00Z",
+                      "RetroactiveCoverageInd": false
+                    }
+                  },
+                  "CurrentTermAmt": {
+                    "Amt": ""
+                  },
+                  "Option": [
+                    {
+                      "OptionTypeCd": "Wind",
+                      "OptionValue": "Incl",
+                      "OptionValueDesc": "",
+                      "LocationNo": "",
+                      "BuildingNo": ""
+                    }
+                  ],
+                  "CreditOrSurcharge": {
+                    "CreditSurchargeCd": null,
+                    "NumericValue": {
+                      "FormatModFactor": 0
+                    }
+                  },
+                  "Rate": "",
+                  "MinPremAmt": {
+                    "Amt": 0
+                  },
+                  "AddlCoverage": [],
+                  "CreditOrSurchargeInfo": []
+                },
+                {
+                  "CoverageCd": "BPP",
+                  "CoverageDesc": "Business Personal Property",
+                  "Limit": [
+                    {
+                      "FormatCurrencyAmt": {
+                        "Amt": "175000"
+                      },
+                      "LimitAppliesToCd": "",
+                      "ValuationCd": "ACV"
+                    }
+                  ],
+                  "Deductible": [
+                    {
+                      "FormatInteger": 2500,
+                      "FormatPct": 0,
+                      "DeductibleTypeCd": "",
+                      "DeductibleAppliesToCd": "AllPeril"
+                    },
+                    {
+                      "FormatInteger": 0,
+                      "FormatPct": 2,
+                      "DeductibleTypeCd": "",
+                      "DeductibleAppliesToCd": "Wind"
+                    }
+                  ],
+                  "CommlCoverageSupplement": {
+                    "CoverageSubCd": "BASIC",
+                    "CoinsurancePct": "80",
+                    "ClaimMadeInfo": {
+                      "UnlimitedPriorActsCoverageInd": false,
+                      "CurrentRetroactiveDt": "0001-01-01T00:00:00Z",
+                      "RetroactiveCoverageInd": false
+                    }
+                  },
+                  "CurrentTermAmt": {
+                    "Amt": ""
+                  },
+                  "Option": [
+                    {
+                      "OptionTypeCd": "Wind",
+                      "OptionValue": "Incl",
+                      "OptionValueDesc": "",
+                      "LocationNo": "",
+                      "BuildingNo": ""
+                    }
+                  ],
+                  "CreditOrSurcharge": {
+                    "CreditSurchargeCd": null,
+                    "NumericValue": {
+                      "FormatModFactor": 0
+                    }
+                  },
+                  "Rate": "",
+                  "MinPremAmt": {
+                    "Amt": 0
+                  },
+                  "AddlCoverage": [],
+                  "CreditOrSurchargeInfo": []
+                }
+              ],
+              "Rate": 0,
+              "CurrentTermAmt": null,
+              "IRH_RatedPremium": 0,
+              "LocationRef": 1,
+              "SubLocationRef": 1,
+              "PropCarrierSpecified": {
+                "SquareFootagePercentageOccupiedByInsured": "0",
+                "IsOwnedByInsured": "true",
+                "RoofShapeType": "",
+                "RoofConstructionType": "",
+                "IsHistoricalRegistry": "false",
+                "IsTemporaryOrIncidental": "false",
+                "IsPlumbingTypeInListOfIneligibleTypes": "false",
+                "IsHeatingTypeInListOfIneligibleTypes": "false",
+                "IsWiringTypeInListOfIneligibleTypes": "false",
+                "IsElectricCircuitBreakerProtection": "false",
+                "IsOperatingBusinessOpenPastMidnight": "false",
+                "NumberOfUnitsOccupyTenant": "0",
+                "PercentageOccupiedByInsured": "0.00",
+                "PercentageVacantByInsured": ""
+              },
+              "RiskAppetiteCd": null
+            }
+          ],
+          "PropCarrierSpecifiedPolicyInfo": {
+            "AccountsReceivableLimitAmount": "10000",
+            "WaterSewageBackupLimitAmount": "10000",
+            "FireDepartmentServiceChargeLimitAmount": "5000",
+            "FireProtectionDeviceRechargeLimitAmount": "2500",
+            "ValuablePapersAndRecordsLimitAmount": "10000",
+            "PolicyLevelOptionalCoveragePremiumTotal": ""
+          }
+        }
+      },
+      "PriorLoss": {
+        "PriorLossHistoryInfo": []
+      }
+    }
+  }
+}
