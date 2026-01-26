@@ -1,0 +1,27 @@
+We are migrating (lift-and-shift) an existing CI/CD setup into a new AWS account.
+
+While creating a new AWS CodePipeline, pipeline creation fails with an AccessDenied error related to iam:PassRole.
+
+Error message:
+User: arn:aws:sts::<ACCOUNT_ID>:assumed-role/AWSReservedSSO_EDMCloudArchitect_<id>/<user_email>
+is not authorized to perform: iam:PassRole
+on resource: arn:aws:iam::<ACCOUNT_ID>:role/hq-edm-customapps-servicerole-codepipeline
+
+Context:
+- We are creating a CodePipeline that deploys CloudFormation stacks.
+- The pipeline is configured to use the service role:
+  hq-edm-customapps-servicerole-codepipeline
+- The service role exists and has the required trust relationship for:
+  codepipeline.amazonaws.com
+- Required customer-managed policies have been created and attached to the service role.
+- However, the AWS SSO permission set (EDMCloudArchitect) used by the user creating the pipeline does not appear to have sufficient iam:PassRole permission for this role.
+
+Request:
+Please confirm the correct and recommended way to grant iam:PassRole permission to an AWS IAM Identity Center (SSO) permission set so that users can create CodePipelines using a specified service role.
+
+Specifically:
+1. Should iam:PassRole be granted via an inline policy on the SSO permission set?
+2. Are there any additional conditions (iam:PassedToService) required for CodePipeline?
+3. Is there any known limitation when passing service roles created during a lift-and-shift migration?
+
+We would like to follow AWS best practices and least-privilege principles.
