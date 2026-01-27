@@ -9,6 +9,7 @@ env:
     ARTIFACTORY_USER: "/av-edm/cicd/streamlit-docker-artifactory-user"
     ARTIFACTORY_KEY: "/av-edm/cicd/streamlit-docker-artifactory-api-key"
     ARTIFACTORY_URL: "/av-edm/cicd/streamlit-docker-artifactory-url"
+
 phases:
   install:
     runtime-versions:
@@ -17,6 +18,7 @@ phases:
       - echo "Installing validation tools..."
       - pip install cfn-lint --quiet
       - echo "Tools installed successfully"
+      
   pre_build:
     commands:
       - echo "========================================"
@@ -36,6 +38,7 @@ phases:
       - echo "$DOCKERHUB_TOKEN" | docker login -u "$DOCKERHUB_USER" --password-stdin || true
       - echo "Artifactory login (optional)..."
       - echo "$ARTIFACTORY_KEY" | docker login "$ARTIFACTORY_URL" -u "$ARTIFACTORY_USER" --password-stdin || true
+      
   build:
     commands:
       - echo "========================================"
@@ -55,21 +58,27 @@ phases:
         fi
       - echo ""
       - echo "========================================"
-      - echo "Packaging CloudFormation (creates packaged-root.yml)"
+      - echo "Packaging CloudFormation"
       - echo "========================================"
-      - aws cloudformation package --template-file templates/root.yml --s3-bucket "$CFN_PACKAGE_BUCKET" --s3-prefix cfn-templates --output-template-file packaged-root.yml
+      - |
+        aws cloudformation package \
+          --template-file templates/root.yml \
+          --s3-bucket "$CFN_PACKAGE_BUCKET" \
+          --s3-prefix cfn-templates \
+          --output-template-file packaged-root.yml
       - echo "Verifying packaged-root.yml..."
       - ls -la packaged-root.yml
       - echo "First 50 lines of packaged template:"
       - head -50 packaged-root.yml
+      
   post_build:
     commands:
       - echo "========================================"
       - echo "Build Summary - EDMCustomApps"
       - echo "========================================"
-      - echo "Packaged template: packaged-root.yml"
-      - echo "Parameter files: params/*.json"
+      - echo "Packaged template created successfully"
       - echo "Build completed at $(date)"
+
 artifacts:
   files:
     - packaged-root.yml
