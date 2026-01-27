@@ -1,5 +1,4 @@
 version: 0.2
-
 env:
   variables:
     WORKSTREAM: "edm"
@@ -10,7 +9,6 @@ env:
     ARTIFACTORY_USER: "/av-edm/cicd/streamlit-docker-artifactory-user"
     ARTIFACTORY_KEY: "/av-edm/cicd/streamlit-docker-artifactory-api-key"
     ARTIFACTORY_URL: "/av-edm/cicd/streamlit-docker-artifactory-url"
-
 phases:
   install:
     runtime-versions:
@@ -19,7 +17,6 @@ phases:
       - echo "Installing validation tools..."
       - pip install cfn-lint --quiet
       - echo "Tools installed successfully"
-
   pre_build:
     commands:
       - echo "========================================"
@@ -35,13 +32,11 @@ phases:
       - ls -la
       - echo "Templates directory:"
       - ls -la templates/
-
       # Optional: only if CodeBuild image supports docker + Privileged mode is enabled
       - echo "DockerHub login (optional)..."
       - echo "$DOCKERHUB_TOKEN" | docker login -u "$DOCKERHUB_USER" --password-stdin || true
       - echo "Artifactory login (optional)..."
       - echo "$ARTIFACTORY_KEY" | docker login "$ARTIFACTORY_URL" -u "$ARTIFACTORY_USER" --password-stdin || true
-
   build:
     commands:
       - echo "========================================"
@@ -49,27 +44,25 @@ phases:
       - echo "========================================"
       - echo "Running cfn-lint on all templates..."
       - |
-          LINT_ERRORS=0
-          for template in templates/*.yml templates/**/*.yml; do
-            if [ -f "$template" ]; then
-              echo "Linting: $template"
-              cfn-lint "$template" --ignore-checks W3002 W3010 || LINT_ERRORS=$((LINT_ERRORS + 1))
-            fi
-          done
-          if [ $LINT_ERRORS -gt 0 ]; then
-            echo "WARNING: $LINT_ERRORS template(s) have lint warnings"
+        LINT_ERRORS=0
+        for template in templates/*.yml templates/**/*.yml; do
+          if [ -f "$template" ]; then
+            echo "Linting: $template"
+            cfn-lint "$template" --ignore-checks W3002 W3010 || LINT_ERRORS=$((LINT_ERRORS + 1))
           fi
-
+        done
+        if [ $LINT_ERRORS -gt 0 ]; then
+          echo "WARNING: $LINT_ERRORS template(s) have lint warnings"
+        fi
+      - echo ""
       - echo "========================================"
       - echo "Packaging CloudFormation (creates packaged-root.yml)"
       - echo "========================================"
       - aws cloudformation package --template-file templates/root.yml --s3-bucket "$CFN_PACKAGE_BUCKET" --s3-prefix cfn-templates --output-template-file packaged-root.yml
-
       - echo "Verifying packaged-root.yml..."
       - ls -la packaged-root.yml
       - echo "First 50 lines of packaged template:"
       - head -50 packaged-root.yml
-
   post_build:
     commands:
       - echo "========================================"
@@ -78,7 +71,6 @@ phases:
       - echo "Packaged template: packaged-root.yml"
       - echo "Parameter files: params/*.json"
       - echo "Build completed at $(date)"
-
 artifacts:
   files:
     - packaged-root.yml
