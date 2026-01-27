@@ -32,7 +32,6 @@ phases:
       - ls -la
       - echo "Templates directory:"
       - ls -la templates/
-      # Optional: only if CodeBuild image supports docker + Privileged mode is enabled
       - echo "DockerHub login (optional)..."
       - echo "$DOCKERHUB_TOKEN" | docker login -u "$DOCKERHUB_USER" --password-stdin || true
       - echo "Artifactory login (optional)..."
