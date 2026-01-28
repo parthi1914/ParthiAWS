@@ -1,5 +1,4 @@
-{
-    "Version": "2012-10-17",
+"Version": "2012-10-17",
     "Statement": [
         {
             "Effect": "Allow",
@@ -17,7 +16,7 @@
                 "cloudformation:DeleteChangeSet"
             ],
             "Resource": [
-                "arn:aws:cloudformation:us-east-1:086002003393:stack/hq-edm-stack1/*",
+                "arn:aws:cloudformation:us-east-1:086002003393:stack/hq-edm-*",
                 "arn:aws:cloudformation:us-east-1:086002003393:changeSet/*"
             ]
         },
@@ -25,6 +24,36 @@
             "Effect": "Allow",
             "Action": [
                 "iam:PassRole"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
+
+
+cloudformation-resource-creation
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "ec2:*",
+                "elasticloadbalancing:*",
+                "ecs:*",
+                "lambda:*",
+                "s3:*",
+                "logs:*",
+                "iam:CreateRole",
+                "iam:DeleteRole",
+                "iam:GetRole",
+                "iam:PassRole",
+                "iam:AttachRolePolicy",
+                "iam:DetachRolePolicy",
+                "iam:PutRolePolicy",
+                "iam:DeleteRolePolicy",
+                "iam:GetRolePolicy",
+                "iam:CreateServiceLinkedRole"
             ],
             "Resource": "*"
         }
