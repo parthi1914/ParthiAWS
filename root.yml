@@ -1,0 +1,318 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: |
+  Root Stack - EDMCustomApps Infrastructure
+  Project: EDMCustomApps
+  Version: 2.0.0
+  Uses existing VPC infrastructure
+
+Parameters:
+  Workstream:
+    Type: String
+    Default: "edm"
+  AppName:
+    Type: String
+    Default: "customapps"
+  Environment:
+    Type: String
+    Default: "dev"
+    AllowedValues: [dev, qa, uat, prod]
+  CostCenter:
+    Type: String
+    Default: "CC-12345"
+  Owner:
+    Type: String
+    Default: "edm-platform-team"
+  
+  # Existing VPC Parameters
+  VpcId:
+    Type: AWS::EC2::VPC::Id
+    Description: "Existing VPC ID"
+  
+  PublicSubnetIds:
+    Type: String
+    Description: "Comma-separated list of public subnet IDs for ALB"
+  
+  PrivateSubnetIds:
+    Type: String
+    Description: "Comma-separated list of private subnet IDs for ECS"
+  
+  AlbSecurityGroupId:
+    Type: AWS::EC2::SecurityGroup::Id
+    Description: "Security group ID for ALB"
+  
+  EcsSecurityGroupId:
+    Type: AWS::EC2::SecurityGroup::Id
+    Description: "Security group ID for ECS"
+  
+  # Application Parameters
+  ContainerImage:
+    Type: String
+    Default: "public.ecr.aws/nginx/nginx:latest"
+  ContainerPort:
+    Type: Number
+    Default: 80
+  DesiredCount:
+    Type: Number
+    Default: 1
+  
+  # Secrets Parameters
+  ArtifactoryUsername:
+    Type: String
+    Default: "223145047"
+    NoEcho: true
+  ArtifactoryPassword:
+    Type: String
+    Default: "CHANGE_ME_AFTER_DEPLOYMENT"
+    NoEcho: true
+  ArtifactoryUrl:
+    Type: String
+    Default: "geaerospace.jfrog.io/streamlit-docker-local-dev"
+  DockerHubUsername:
+    Type: String
+    Default: "abdullahmamunge"
+  DockerHubToken:
+    Type: String
+    Default: "CHANGE_ME_AFTER_DEPLOYMENT"
+    NoEcho: true
+  OIDCClientId:
+    Type: String
+    Default: "av-edm-streamlit-app-launcher-dev-2"
+  OIDCClientSecret:
+    Type: String
+    Default: "CHANGE_ME_AFTER_DEPLOYMENT"
+    NoEcho: true
+  LambdaCodeS3Key:
+    Type: String
+    Default: "lambda/hello.zip"
+
+Conditions:
+  IsProd: !Equals [!Ref Environment, "prod"]
+
+Mappings:
+  EnvironmentConfig:
+    dev:
+      LogRetentionDays: 7
+      TaskCpu: "256"
+      TaskMemory: "512"
+      LambdaMemory: 256
+      LambdaTimeout: 10
+    qa:
+      LogRetentionDays: 14
+      TaskCpu: "256"
+      TaskMemory: "512"
+      LambdaMemory: 512
+      LambdaTimeout: 30
+    uat:
+      LogRetentionDays: 30
+      TaskCpu: "512"
+      TaskMemory: "1024"
+      LambdaMemory: 512
+      LambdaTimeout: 30
+    prod:
+      LogRetentionDays: 90
+      TaskCpu: "1024"
+      TaskMemory: "2048"
+      LambdaMemory: 1024
+      LambdaTimeout: 60
+
+Resources:
+  # ==========================================================================
+  # SECRETS STACK
+  # ==========================================================================
+  SecretsStack:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: secrets/secrets-params.yml
+      Parameters:
+        Workstream: !Ref Workstream
+        AppName: !Ref AppName
+        Environment: !Ref Environment
+        CostCenter: !Ref CostCenter
+        Owner: !Ref Owner
+        ArtifactoryUsername: !Ref ArtifactoryUsername
+        ArtifactoryPassword: !Ref ArtifactoryPassword
+        ArtifactoryUrl: !Ref ArtifactoryUrl
+        DockerHubUsername: !Ref DockerHubUsername
+        DockerHubToken: !Ref DockerHubToken
+        OIDCClientId: !Ref OIDCClientId
+        OIDCClientSecret: !Ref OIDCClientSecret
+      Tags:
+        - Key: Name
+          Value: !Sub "${Workstream}-${AppName}-secrets-${Environment}"
+        - Key: Environment
+          Value: !Ref Environment
+        - Key: Workstream
+          Value: !Ref Workstream
+
+  # ==========================================================================
+  # S3 STACK
+  # ==========================================================================
+  S3Stack:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: s3/buckets.yml
+      Parameters:
+        Workstream: !Ref Workstream
+        AppName: !Ref AppName
+        Environment: !Ref Environment
+        CostCenter: !Ref CostCenter
+        Owner: !Ref Owner
+      Tags:
+        - Key: Name
+          Value: !Sub "${Workstream}-${AppName}-s3-${Environment}"
+        - Key: Environment
+          Value: !Ref Environment
+        - Key: Workstream
+          Value: !Ref Workstream
+
+  # ==========================================================================
+  # ALB STACK - Uses existing VPC and Security Group
+  # ==========================================================================
+  AlbStack:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: alb/alb.yml
+      Parameters:
+        Workstream: !Ref Workstream
+        AppName: !Ref AppName
+        Environment: !Ref Environment
+        CostCenter: !Ref CostCenter
+        Owner: !Ref Owner
+        VpcId: !Ref VpcId
+        PublicSubnetIds: !Ref PublicSubnetIds
+        AlbSecurityGroupId: !Ref AlbSecurityGroupId
+        ContainerPort: !Ref ContainerPort
+      Tags:
+        - Key: Name
+          Value: !Sub "${Workstream}-${AppName}-alb-${Environment}"
+        - Key: Environment
+          Value: !Ref Environment
+        - Key: Workstream
+          Value: !Ref Workstream
+
+  # ==========================================================================
+  # LAMBDA STACK
+  # ==========================================================================
+  LambdaStack:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: lambda/functions.yml
+      Parameters:
+        Workstream: !Ref Workstream
+        AppName: !Ref AppName
+        Environment: !Ref Environment
+        CostCenter: !Ref CostCenter
+        Owner: !Ref Owner
+        LambdaCodeS3Bucket: !GetAtt S3Stack.Outputs.ArtifactsBucketName
+        LambdaCodeS3Key: !Ref LambdaCodeS3Key
+        LambdaMemory: !FindInMap [EnvironmentConfig, !Ref Environment, LambdaMemory]
+        LambdaTimeout: !FindInMap [EnvironmentConfig, !Ref Environment, LambdaTimeout]
+      Tags:
+        - Key: Name
+          Value: !Sub "${Workstream}-${AppName}-lambda-${Environment}"
+        - Key: Environment
+          Value: !Ref Environment
+        - Key: Workstream
+          Value: !Ref Workstream
+
+  # ==========================================================================
+  # ECS STACK - Uses existing VPC and Security Group
+  # ==========================================================================
+  EcsStack:
+    Type: AWS::CloudFormation::Stack
+    DependsOn: SecretsStack
+    Properties:
+      TemplateURL: ecs/cluster-service.yml
+      Parameters:
+        Workstream: !Ref Workstream
+        AppName: !Ref AppName
+        Environment: !Ref Environment
+        CostCenter: !Ref CostCenter
+        Owner: !Ref Owner
+        VpcId: !Ref VpcId
+        PrivateSubnetIds: !Ref PrivateSubnetIds
+        EcsSecurityGroupId: !Ref EcsSecurityGroupId
+        AlbListenerArn: !GetAtt AlbStack.Outputs.HttpListenerArn
+        TargetGroupArn: !GetAtt AlbStack.Outputs.TargetGroupArn
+        ContainerImage: !Ref ContainerImage
+        ContainerPort: !Ref ContainerPort
+        DesiredCount: !Ref DesiredCount
+        TaskCpu: !FindInMap [EnvironmentConfig, !Ref Environment, TaskCpu]
+        TaskMemory: !FindInMap [EnvironmentConfig, !Ref Environment, TaskMemory]
+        LogRetentionDays: !FindInMap [EnvironmentConfig, !Ref Environment, LogRetentionDays]
+        ArtifactorySecretArn: !GetAtt SecretsStack.Outputs.ArtifactorySecretArn
+      Tags:
+        - Key: Name
+          Value: !Sub "${Workstream}-${AppName}-ecs-${Environment}"
+        - Key: Environment
+          Value: !Ref Environment
+        - Key: Workstream
+          Value: !Ref Workstream
+
+# ============================================================================
+# OUTPUTS
+# ============================================================================
+Outputs:
+  VpcId:
+    Description: "VPC ID being used"
+    Value: !Ref VpcId
+    Export:
+      Name: !Sub "${AWS::StackName}-VpcId"
+  
+  PublicSubnetIds:
+    Description: "Public Subnet IDs"
+    Value: !Ref PublicSubnetIds
+    Export:
+      Name: !Sub "${AWS::StackName}-PublicSubnetIds"
+  
+  PrivateSubnetIds:
+    Description: "Private Subnet IDs"
+    Value: !Ref PrivateSubnetIds
+    Export:
+      Name: !Sub "${AWS::StackName}-PrivateSubnetIds"
+  
+  AlbDnsName:
+    Description: "ALB DNS Name"
+    Value: !GetAtt AlbStack.Outputs.AlbDnsName
+    Export:
+      Name: !Sub "${AWS::StackName}-AlbDnsName"
+  
+  ApplicationEndpoint:
+    Description: "Application URL"
+    Value: !Sub "http://${AlbStack.Outputs.AlbDnsName}"
+  
+  ArtifactsBucketName:
+    Description: "S3 Artifacts Bucket"
+    Value: !GetAtt S3Stack.Outputs.ArtifactsBucketName
+    Export:
+      Name: !Sub "${AWS::StackName}-ArtifactsBucket"
+  
+  ArtifactorySecretArn:
+    Description: "Artifactory Secret ARN"
+    Value: !GetAtt SecretsStack.Outputs.ArtifactorySecretArn
+    Export:
+      Name: !Sub "${AWS::StackName}-ArtifactorySecret"
+  
+  OIDCCredentialsSecretArn:
+    Description: "OIDC Credentials Secret ARN"
+    Value: !GetAtt SecretsStack.Outputs.OIDCCredentialsSecretArn
+    Export:
+      Name: !Sub "${AWS::StackName}-OIDCSecret"
+  
+  DockerHubTokenParameter:
+    Description: "DockerHub Token Parameter Name"
+    Value: !GetAtt SecretsStack.Outputs.DockerHubTokenParameterName
+  
+  ArtifactoryUrlParameter:
+    Description: "Artifactory URL Parameter Name"
+    Value: !GetAtt SecretsStack.Outputs.ArtifactoryUrlParameterName
+  
+  EcsClusterName:
+    Description: "ECS Cluster Name"
+    Value: !GetAtt EcsStack.Outputs.ClusterName
+    Export:
+      Name: !Sub "${AWS::StackName}-EcsCluster"
+  
+  EcsServiceName:
+    Description: "ECS Service Name"
+    Value: !GetAtt EcsStack.Outputs.ServiceName
