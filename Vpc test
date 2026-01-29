@@ -1,0 +1,5 @@
+aws ec2 describe-subnets \
+  --filters "Name=vpc-id,Values=vpc-07acc586ab2a9bab7" \
+  --region us-east-1 \
+  --query 'Subnets[*].[SubnetId,CidrBlock,AvailabilityZone,Tags[?Key==`Name`].Value|[0],MapPublicIpOnLaunch]' \
+  --output table
