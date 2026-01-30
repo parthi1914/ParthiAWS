@@ -1,0 +1,32 @@
+version: 0.2
+env:
+  variables:
+    WORKSTREAM: edm
+    APP_NAME: customapps
+phases:
+  install:
+    runtime-versions:
+      python: 3.12
+    commands:
+      - pip install cfn-lint --quiet
+  pre_build:
+    commands:
+      - echo "Pre-build checks"
+      - aws sts get-caller-identity
+      - aws s3api head-bucket --bucket "$CFN_PACKAGE_BUCKET"
+      - ls -la templates/
+  build:
+    commands:
+      - echo "Validating templates"
+      - cfn-lint templates/**/*.yml --ignore-checks W3002 W3010 || true
+      - echo "Packaging CloudFormation"
+      - aws cloudformation package --template-file templates/root.yml --s3-bucket "$CFN_PACKAGE_BUCKET" --s3-prefix cfn-templates --output-template-file packaged-root.yml --region us-east-1
+      - ls -la packaged-root.yml
+  post_build:
+    commands:
+      - echo "Build complete"
+artifacts:
+  files:
+    - packaged-root.yml
+    - params/*.json
+  name: BuildArtifact
